@@ -1,6 +1,42 @@
 {
-  "updatedAt": "2026-09-06T23:17:00-07:00",
+  "updatedAt": "2026-09-06T23:46:00-07:00",
   "entries": [
+    {
+      "id": "20260906-junyi-academy",
+      "createdAt": "2026-09-06T23:46:00-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "9月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "均一教育平台 Junyi Academy",
+      "summary": "台灣非營利線上學習平台，主打免費、個人化／AI 輔助學習，內容對應 108 課綱，涵蓋國小到高中影片與習題；老師、學生、家長皆可使用。",
+      "source": {
+        "type": "website",
+        "site": "均一教育平台",
+        "url": "https://www.junyiacademy.org/",
+        "title": "均一教育平台"
+      },
+      "facts": {
+        "type": "非營利線上學習平台",
+        "focus": "免費優質、個人化／AI 學習資源；教育平權",
+        "audience": "學生、老師、家長",
+        "range": "國小到高中，對應 108 課綱學科與素養內容",
+        "content": "數萬部影片與習題、動畫素養課程、班級指派與學習數據",
+        "cost": "全站永久免費使用（官網說法）"
+      },
+      "refs": [
+        {
+          "title": "均一教育平台官網",
+          "url": "https://www.junyiacademy.org/"
+        }
+      ],
+      "tags": [
+        "工具",
+        "小孩學習資源"
+      ]
+    },
     {
       "id": "20260906-han-detox-juice",
       "createdAt": "2026-09-06T21:14:00-07:00",
