@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>見聞錄</title>
+  <style>
+    :root {
+      --bg: #f3efe6;
+      --ink: #1c1917;
+      --muted: #78716c;
+      --card: #fffcf7;
+      --line: #e4dccf;
+      --accent: #0f766e;
+      --accent-soft: #ecfdf5;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(900px 420px at 0% -10%, #ffedd5 0%, transparent 55%),
+        radial-gradient(700px 380px at 100% 0%, #ccfbf1 0%, transparent 50%),
+        var(--bg);
+      font-family: "Iwanami Mincho", "Hiragino Mincho ProN", "Songti TC", "Noto Serif TC", Georgia, serif;
+      line-height: 1.55;
+    }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 1.6rem 1rem 2.5rem; }
+    header h1 {
+      margin: 0;
+      font-size: clamp(1.55rem, 3.5vw, 2rem);
+      letter-spacing: 0.12em;
+      font-weight: 700;
+    }
+    header .lead {
+      margin: 0.35rem 0 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    .toolbar { margin-top: 1rem; display: grid; gap: 0.65rem; }
+    .search {
+      width: 100%;
+      border: 1px solid var(--line);
+      background: var(--card);
+      border-radius: 12px;
+      padding: 0.65rem 0.85rem;
+      font: inherit;
+      font-size: 0.95rem;
+    }
+    .search:focus { outline: 2px solid color-mix(in oklab, var(--accent) 45%, white); border-color: var(--accent); }
+    .chips { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+    .chips button {
+      border: 1px solid var(--line);
+      background: var(--card);
+      color: var(--ink);
+      border-radius: 999px;
+      padding: 0.22rem 0.7rem;
+      cursor: pointer;
+      font: inherit;
+      font-size: 0.84rem;
+    }
+    .chips button.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    .hint, .stats { color: var(--muted); font-size: 0.82rem; }
+    main {
+      margin-top: 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 0.75rem;
+    }
+    article {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 0.85rem 0.9rem 0.95rem;
+      box-shadow: 0 8px 20px rgba(28,25,23,0.04);
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.28rem;
+      margin-bottom: 0.4rem;
+      align-items: center;
+    }
+    .tag {
+      display: inline-flex;
+      border-radius: 999px;
+      padding: 0.05rem 0.5rem;
+      font-size: 0.74rem;
+      border: 1px solid var(--line);
+      color: var(--muted);
+      background: #fff;
+    }
+    .tag.primary {
+      background: var(--accent-soft);
+      color: var(--accent);
+      border-color: color-mix(in oklab, var(--accent) 25%, white);
+      font-weight: 650;
+    }
+    .when { width: 100%; color: var(--muted); font-size: 0.74rem; margin-top: 0.15rem; }
+    h2 {
+      margin: 0 0 0.35rem;
+      font-size: 1.02rem;
+      line-height: 1.35;
+      letter-spacing: 0.01em;
+    }
+    .summary {
+      margin: 0;
+      font-size: 0.88rem;
+      color: #44403c;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      flex: 1;
+    }
+    details { margin-top: 0.45rem; }
+    details summary {
+      cursor: pointer;
+      color: var(--accent);
+      font-size: 0.84rem;
+      user-select: none;
+    }
+    dl {
+      display: grid;
+      grid-template-columns: 5.2rem 1fr;
+      gap: 0.2rem 0.45rem;
+      margin: 0.55rem 0 0;
+      font-size: 0.82rem;
+    }
+    dt { color: var(--muted); }
+    dd { margin: 0; }
+    ul.tips { margin: 0.45rem 0 0; padding-left: 1rem; font-size: 0.82rem; }
+    .refs { margin: 0.55rem 0 0; padding-left: 1rem; font-size: 0.8rem; }
+    .refs a { color: var(--accent); }
+    .empty {
+      grid-column: 1 / -1;
+      text-align: center;
+      color: var(--muted);
+      padding: 2rem 1rem;
+      border: 1px dashed var(--line);
+      border-radius: 14px;
+    }
+    footer {
+      margin-top: 1.5rem;
+      color: var(--muted);
+      font-size: 0.8rem;
+      text-align: center;
+    }
+    @media (max-width: 560px) {
+      main { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>見聞錄</h1>
+      <p class="lead">丟連結進來就分類归档。標籤可多選（例：餐廳＋日本＋涉谷＋香港料理）；菜譜等不標地點。</p>
+      <div class="toolbar">
+        <input class="search" id="q" type="search" placeholder="搜尋標題、摘要、標籤…" autocomplete="off" />
+        <div class="chips" id="cats"></div>
+        <p class="hint">標籤可多選；再點一次可取消。</p>
+        <div class="chips" id="tags"></div>
+        <div class="stats" id="stats"></div>
+      </div>
+    </header>
+    <main id="list"></main>
+    <footer>資料來源 <code>data.json</code> · 由見聞錄自動更新</footer>
+  </div>
+  <script>
+    const CAT_ORDER = ["全部", "知識", "餐廳", "菜譜", "新聞", "工具", "地方", "購物", "其他"];
+    const FACT_LABEL = {
+      nameZh: "名稱", nameJa: "日文名", person: "人物", claim: "來源說法",
+      address: "地址", access: "交通", phone: "電話", budget: "預算",
+      dishes: "料理", style: "風格", related: "相關", opened: "開業",
+      juiceCore: "果汁三寶", juiceVeggies: "蔬菜", juiceFruits: "水果",
+      juiceSpices: "辛香料", juiceSeeds: "穀豆堅果", disclaimer: "提醒"
+    };
+
+    let entries = [];
+    let activeCat = "全部";
+    let activeTags = new Set();
+    let query = "";
+
+    const $ = (id) => document.getElementById(id);
+
+    function escapeHtml(s) {
+      return String(s ?? "").replace(/[&<>"']/g, c => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+      }[c]));
+    }
+
+    function fmtDate(iso) {
+      try {
+        return new Date(iso).toLocaleString("zh-TW", {
+          timeZone: "America/Vancouver",
+          year: "numeric", month: "short", day: "numeric"
+        });
+      } catch { return iso; }
+    }
+
+    function allTags(list) {
+      const map = new Map();
+      list.forEach(e => (e.tags || []).forEach(t => map.set(t, (map.get(t) || 0) + 1)));
+      return [...map.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-Hant"));
+    }
+
+    function filtered() {
+      const q = query.trim().toLowerCase();
+      return entries.filter(e => {
+        if (activeCat !== "全部" && e.category !== activeCat) return false;
+        if (activeTags.size) {
+          const tags = new Set(e.tags || []);
+          for (const t of activeTags) if (!tags.has(t)) return false;
+        }
+        if (!q) return true;
+        const blob = [
+          e.title, e.summary, e.category,
+          ...(e.tags || []),
+          JSON.stringify(e.facts || {})
+        ].join("\n").toLowerCase();
+        return blob.includes(q);
+      });
+    }
+
+    function renderChips() {
+      const cats = CAT_ORDER.filter(c => c === "全部" || entries.some(e => e.category === c));
+      $("cats").innerHTML = cats.map(c =>
+        `<button type="button" data-cat="${escapeHtml(c)}" class="${c === activeCat ? "active" : ""}">${escapeHtml(c)}</button>`
+      ).join("");
+      $("cats").querySelectorAll("button").forEach(btn => {
+        btn.onclick = () => { activeCat = btn.dataset.cat; render(); };
+      });
+
+      const tags = allTags(entries);
+      $("tags").innerHTML = tags.map(([t, n]) =>
+        `<button type="button" data-tag="${escapeHtml(t)}" class="${activeTags.has(t) ? "active" : ""}">${escapeHtml(t)} · ${n}</button>`
+      ).join("");
+      $("tags").querySelectorAll("button").forEach(btn => {
+        btn.onclick = () => {
+          const t = btn.dataset.tag;
+          if (activeTags.has(t)) activeTags.delete(t);
+          else activeTags.add(t);
+          render();
+        };
+      });
+    }
+
+    function renderFacts(facts) {
+      if (!facts || typeof facts !== "object") return "";
+      const rows = [];
+      let tips = "";
+      for (const [k, v] of Object.entries(facts)) {
+        if (k === "sixTips" && Array.isArray(v)) {
+          tips = `<ul class="tips">${v.map(x => `<li>${escapeHtml(x)}</li>`).join("")}</ul>`;
+          continue;
+        }
+        if (v == null || v === "") continue;
+        rows.push(`<dt>${escapeHtml(FACT_LABEL[k] || k)}</dt><dd>${escapeHtml(String(v))}</dd>`);
+      }
+      return `${rows.length ? `<dl>${rows.join("")}</dl>` : ""}${tips}`;
+    }
+
+    function renderList(list) {
+      if (!list.length) {
+        $("list").innerHTML = `<p class="empty">沒有符合的條目</p>`;
+        return;
+      }
+      $("list").innerHTML = list.map(e => {
+        const tags = (e.tags || []).map((t, i) =>
+          `<span class="tag ${i === 0 ? "primary" : ""}">${escapeHtml(t)}</span>`
+        ).join("");
+        const refs = (e.refs || []).map(r =>
+          `<li><a href="${escapeHtml(r.url)}" target="_blank" rel="noopener">${escapeHtml(r.title)}</a></li>`
+        ).join("");
+        const src = e.source?.url
+          ? `<p style="margin:0.5rem 0 0;font-size:0.8rem;color:var(--muted)">來源：<a href="${escapeHtml(e.source.url)}" target="_blank" rel="noopener">${escapeHtml(e.source.site || e.source.account || "連結")}</a></p>`
+          : "";
+        return `<article>
+          <div class="meta">${tags}<span class="when">${fmtDate(e.createdAt)}</span></div>
+          <h2>${escapeHtml(e.title)}</h2>
+          <p class="summary">${escapeHtml(e.summary || "")}</p>
+          <details>
+            <summary>詳細資料</summary>
+            ${renderFacts(e.facts)}
+            ${src}
+            ${refs ? `<ol class="refs">${refs}</ol>` : ""}
+          </details>
+        </article>`;
+      }).join("");
+    }
+
+    function render() {
+      renderChips();
+      const list = filtered();
+      const tagNote = activeTags.size ? ` · 已選標籤 ${activeTags.size}` : "";
+      $("stats").textContent = `共 ${entries.length} 筆 · 目前顯示 ${list.length} 筆${tagNote}`;
+      renderList(list);
+    }
+
+    $("q").addEventListener("input", (ev) => {
+      query = ev.target.value;
+      render();
+    });
+
+    fetch("./data.json", { cache: "no-store" })
+      .then(r => r.json())
+      .then(data => {
+        entries = (data.entries || []).slice().sort((a, b) =>
+          String(b.createdAt).localeCompare(String(a.createdAt))
+        );
+        render();
+      })
+      .catch(() => {
+        $("list").innerHTML = `<p class="empty">讀不到 data.json</p>`;
+      });
+  </script>
+</body>
+</html>

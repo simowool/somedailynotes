@@ -1,0 +1,125 @@
+{
+  "updatedAt": "2026-09-06T21:16:00-07:00",
+  "entries": [
+    {
+      "id": "20260906-han-detox-juice",
+      "createdAt": "2026-09-06T21:14:00-07:00",
+      "category": "菜譜",
+      "classification": {
+        "category": "菜譜"
+      },
+      "title": "清血排毒蔬果汁 — 北醫韓柏檉教授抗癌食療配方（媒體報導）",
+      "summary": "造咖報導：台北醫學大學教授韓柏檉稱 16 年前肝癌後，以「清血排毒蔬果汁」等食療維持健康。文中整理抗癌 6 秘訣，並公開蔬果汁四大類食材。此為媒體整理之個人經驗分享，非醫療建議。",
+      "source": {
+        "type": "article",
+        "site": "造咖 cava.tw",
+        "url": "https://cava.tw/fitness/healthcare/262459",
+        "title": "「清血排毒蔬果汁」逆轉肝癌！北醫教授的抗癌6秘訣"
+      },
+      "facts": {
+        "person": "韓柏檉（台北醫學大學教授）",
+        "claim": "媒體稱其肝癌後以食療等方式生活多年；配方傳自留美醫師吳永志（文中說法）",
+        "juiceCore": "胡蘿蔔、甜菜根、番茄（文稱打果汁三寶）",
+        "juiceVeggies": "胡蘿蔔、甜菜根、番茄、西洋芹、香菜",
+        "juiceFruits": "蘋果、奇異果、柑橘、檸檬",
+        "juiceSpices": "薑黃粉、肉桂粉、黑胡椒粉",
+        "juiceSeeds": "穀類＋豆類＋堅果類磨粉",
+        "sixTips": [
+          "避免負面情緒（肝怕抑鬱）",
+          "中西醫合併：西醫救急、中醫調理",
+          "清血排毒蔬果汁",
+          "每日 2 餐蔬食：約 80% 蔬果穀豆，配薑蒜、橄欖油、亞麻籽油",
+          "溫涼水加粗鹽泡腳",
+          "黃豆棒拍打疏通，每天約 20 分鐘"
+        ],
+        "disclaimer": "個人經驗／媒體整理，非診斷或治療建議"
+      },
+      "refs": [
+        {
+          "title": "造咖原文",
+          "url": "https://cava.tw/fitness/healthcare/262459"
+        }
+      ],
+      "tags": [
+        "菜譜",
+        "蔬果汁",
+        "食療",
+        "保健"
+      ]
+    },
+    {
+      "id": "20260906-jboy-sakaba",
+      "createdAt": "2026-09-06T21:05:00-07:00",
+      "category": "餐廳",
+      "title": "J仔酒場（ジェイボーイサカバ）— 渋谷地下的「幻の香港」",
+      "summary": "東京渋谷的香港風中華酒場，Facebook（もぐ助）稱為「幾乎沒人知道、找不到就到不了的幻之香港酒場」。內裝由電影《トワイライト・ウォリアーズ》相關美術團隊打造；Reel 提到醬油雞、香港風炒麵、熱騰騰麻婆茄子等。",
+      "source": {
+        "type": "facebook_reel",
+        "url": "https://www.facebook.com/share/r/1K5qQfRN3t/?mibextid=wwXIfr",
+        "canonicalUrl": "https://www.facebook.com/reel/1100211815677849",
+        "account": "もぐ助（Public）",
+        "instagram": "@jboy.shibuya",
+        "caption": "まだほとんど知られてない、知らないと辿り着けない幻の香港酒場。ガチ旨い香港料理が楽しめる穴場中の穴場。しょうゆチキンや香港風焼きそばなど箸が止まらん料理の宝庫。",
+        "overlays": [
+          "渋谷で“幻の香港”",
+          "アツアツ麻婆茄子なんて",
+          "こういうお店待ってた。"
+        ],
+        "note": "分享連結會導向 Reel；登入牆關閉後可見公開預覽與部分說明。"
+      },
+      "facts": {
+        "nameZh": "J仔酒場／J仔酒場大排檔",
+        "nameJa": "ジェイボーイサカバ",
+        "address": "東京都渋谷区宇田川町26-11 白馬ビル B1F",
+        "access": "渋谷駅步行約 3 分",
+        "phone": "03-6427-8989",
+        "budget": "約 ¥3,000 起",
+        "dishes": "醬油雞、香港風炒麵、麻婆茄子（Reel）；叉燒飯、干炒牛河等（報導）",
+        "style": "1970–80 年代香港街景沉浸式／本格香港中華",
+        "related": "對面有系列外帶店 J仔香港ストリートフード（2023/10 開）",
+        "opened": "2025 年 8 月預開、約 9 月正式開業（公開報導）"
+      },
+      "refs": [
+        {
+          "title": "CREA — 渋谷センター街地下「幻の香港」J仔酒場",
+          "url": "https://crea.bunshun.jp/articles/56126"
+        },
+        {
+          "title": "映画.com — J仔酒場採訪報導",
+          "url": "https://eiga.com/news/20251003/8/"
+        },
+        {
+          "title": "東京で中華を食らう — 叉燒飯＆干炒牛河食記",
+          "url": "https://chuka.tokyo/jboysakaba"
+        }
+      ],
+      "tags": [
+        "餐廳",
+        "日本",
+        "涉谷",
+        "香港料理"
+      ],
+      "updatedAt": "2026-09-06T21:10:00-07:00",
+      "country": "日本",
+      "city": "涉谷",
+      "location": {
+        "country": "日本",
+        "countryCode": "JP",
+        "city": "東京",
+        "area": "涉谷",
+        "address": "東京都渋谷区宇田川町26-11 白馬ビル B1F"
+      },
+      "classification": {
+        "category": "餐廳",
+        "country": "日本",
+        "city": "涉谷"
+      },
+      "tagsExtra": [
+        "東京",
+        "中華酒場",
+        "沉浸式餐廳",
+        "J仔酒場"
+      ]
+    }
+  ]
+}
