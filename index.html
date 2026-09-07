@@ -166,7 +166,9 @@
       <div class="toolbar">
         <input class="search" id="q" type="search" placeholder="搜尋標題、摘要、標籤…" autocomplete="off" />
         <div class="chips" id="cats"></div>
-        <p class="hint">標籤可多選；再點一次可取消。</p>
+        <p class="hint">年／月／標籤皆可多選；再點一次可取消。</p>
+        <div class="chips" id="years"></div>
+        <div class="chips" id="months"></div>
         <div class="chips" id="tags"></div>
         <div class="stats" id="stats"></div>
       </div>
@@ -186,6 +188,8 @@
 
     let entries = [];
     let activeCat = "全部";
+    let activeYears = new Set();
+    let activeMonths = new Set();
     let activeTags = new Set();
     let query = "";
 
@@ -206,27 +210,67 @@
       } catch { return iso; }
     }
 
+    function countBy(list, getter) {
+      const map = new Map();
+      list.forEach(e => {
+        const v = getter(e);
+        if (!v) return;
+        map.set(v, (map.get(v) || 0) + 1);
+      });
+      return map;
+    }
+
     function allTags(list) {
       const map = new Map();
       list.forEach(e => (e.tags || []).forEach(t => map.set(t, (map.get(t) || 0) + 1)));
       return [...map.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-Hant"));
     }
 
+    function entryYear(e) {
+      if (e.year) return String(e.year);
+      try {
+        return new Date(e.createdAt).toLocaleString("en-CA", { timeZone: "America/Vancouver", year: "numeric" });
+      } catch { return ""; }
+    }
+
+    function entryMonth(e) {
+      if (e.month) return String(e.month);
+      try {
+        const m = Number(new Date(e.createdAt).toLocaleString("en-US", { timeZone: "America/Vancouver", month: "numeric" }));
+        return m ? `${m}月` : "";
+      } catch { return ""; }
+    }
+
     function filtered() {
       const q = query.trim().toLowerCase();
       return entries.filter(e => {
         if (activeCat !== "全部" && e.category !== activeCat) return false;
+        const y = entryYear(e);
+        const m = entryMonth(e);
+        if (activeYears.size && !activeYears.has(y)) return false;
+        if (activeMonths.size && !activeMonths.has(m)) return false;
         if (activeTags.size) {
           const tags = new Set(e.tags || []);
           for (const t of activeTags) if (!tags.has(t)) return false;
         }
         if (!q) return true;
         const blob = [
-          e.title, e.summary, e.category,
+          e.title, e.summary, e.category, y, m,
           ...(e.tags || []),
           JSON.stringify(e.facts || {})
         ].join("\n").toLowerCase();
         return blob.includes(q);
+      });
+    }
+
+    function bindToggleSet(containerId, set, attr) {
+      $(containerId).querySelectorAll("button").forEach(btn => {
+        btn.onclick = () => {
+          const v = btn.dataset[attr];
+          if (set.has(v)) set.delete(v);
+          else set.add(v);
+          render();
+        };
       });
     }
 
@@ -239,18 +283,24 @@
         btn.onclick = () => { activeCat = btn.dataset.cat; render(); };
       });
 
+      const years = [...countBy(entries, entryYear).entries()].sort((a, b) => b[0].localeCompare(a[0]));
+      $("years").innerHTML = years.map(([t, n]) =>
+        `<button type="button" data-year="${escapeHtml(t)}" class="${activeYears.has(t) ? "active" : ""}">${escapeHtml(t)} · ${n}</button>`
+      ).join("");
+      bindToggleSet("years", activeYears, "year");
+
+      const monthOrder = (s) => Number(String(s).replace("月", "")) || 99;
+      const months = [...countBy(entries, entryMonth).entries()].sort((a, b) => monthOrder(a[0]) - monthOrder(b[0]));
+      $("months").innerHTML = months.map(([t, n]) =>
+        `<button type="button" data-month="${escapeHtml(t)}" class="${activeMonths.has(t) ? "active" : ""}">${escapeHtml(t)} · ${n}</button>`
+      ).join("");
+      bindToggleSet("months", activeMonths, "month");
+
       const tags = allTags(entries);
       $("tags").innerHTML = tags.map(([t, n]) =>
         `<button type="button" data-tag="${escapeHtml(t)}" class="${activeTags.has(t) ? "active" : ""}">${escapeHtml(t)} · ${n}</button>`
       ).join("");
-      $("tags").querySelectorAll("button").forEach(btn => {
-        btn.onclick = () => {
-          const t = btn.dataset.tag;
-          if (activeTags.has(t)) activeTags.delete(t);
-          else activeTags.add(t);
-          render();
-        };
-      });
+      bindToggleSet("tags", activeTags, "tag");
     }
 
     function renderFacts(facts) {
@@ -274,9 +324,14 @@
         return;
       }
       $("list").innerHTML = list.map(e => {
+        const y = entryYear(e);
+        const m = entryMonth(e);
+        const timeTags = [y, m].filter(Boolean).map(t =>
+          `<span class="tag">${escapeHtml(t)}</span>`
+        ).join("");
         const tags = (e.tags || []).map((t, i) =>
           `<span class="tag ${i === 0 ? "primary" : ""}">${escapeHtml(t)}</span>`
-        ).join("");
+        ).join("") + timeTags;
         const refs = (e.refs || []).map(r =>
           `<li><a href="${escapeHtml(r.url)}" target="_blank" rel="noopener">${escapeHtml(r.title)}</a></li>`
         ).join("");
@@ -300,8 +355,12 @@
     function render() {
       renderChips();
       const list = filtered();
-      const tagNote = activeTags.size ? ` · 已選標籤 ${activeTags.size}` : "";
-      $("stats").textContent = `共 ${entries.length} 筆 · 目前顯示 ${list.length} 筆${tagNote}`;
+      const bits = [];
+      if (activeYears.size) bits.push(`年 ${activeYears.size}`);
+      if (activeMonths.size) bits.push(`月 ${activeMonths.size}`);
+      if (activeTags.size) bits.push(`標籤 ${activeTags.size}`);
+      const sel = bits.length ? ` · 已選 ${bits.join("／")}` : "";
+      $("stats").textContent = `共 ${entries.length} 筆 · 目前顯示 ${list.length} 筆${sel}`;
       renderList(list);
     }
 
