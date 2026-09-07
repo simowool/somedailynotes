@@ -1,4 +1,4 @@
-# 有些日常紀錄 Some Daily Note
+# 有些日常紀錄 Some Daily Notes
 
 日常知識、餐廳、菜譜等的分類紀錄站。
 
