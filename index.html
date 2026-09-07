@@ -153,6 +153,40 @@
       font-size: 0.8rem;
       text-align: center;
     }
+    details.filters {
+      border: 1px solid var(--line);
+      background: var(--card);
+      border-radius: 12px;
+      padding: 0.45rem 0.7rem 0.55rem;
+    }
+    details.filters > summary {
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--ink);
+      font-size: 0.9rem;
+      user-select: none;
+    }
+    details.filters > summary::-webkit-details-marker { display: none; }
+    details.filters > summary::before {
+      content: "▸";
+      color: var(--accent);
+      font-size: 0.85rem;
+    }
+    details.filters[open] > summary::before { content: "▾"; }
+    details.filters .filter-body {
+      margin-top: 0.55rem;
+      display: grid;
+      gap: 0.55rem;
+    }
+    details.filters .hint { margin: 0; }
+    .filter-count {
+      margin-left: auto;
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
     @media (max-width: 560px) {
       main { grid-template-columns: 1fr; }
     }
@@ -166,10 +200,18 @@
       <div class="toolbar">
         <input class="search" id="q" type="search" placeholder="搜尋標題、摘要、標籤…" autocomplete="off" />
         <div class="chips" id="cats"></div>
-        <p class="hint">年／月／標籤皆可多選；再點一次可取消。</p>
-        <div class="chips" id="years"></div>
-        <div class="chips" id="months"></div>
-        <div class="chips" id="tags"></div>
+        <details class="filters" id="filterPanel">
+          <summary>
+            <span>年／月／標籤篩選</span>
+            <span class="filter-count" id="filterCount"></span>
+          </summary>
+          <div class="filter-body">
+            <p class="hint">可多選；再點一次可取消。</p>
+            <div class="chips" id="years"></div>
+            <div class="chips" id="months"></div>
+            <div class="chips" id="tags"></div>
+          </div>
+        </details>
         <div class="stats" id="stats"></div>
       </div>
     </header>
@@ -360,6 +402,9 @@
       if (activeTags.size) bits.push(`標籤 ${activeTags.size}`);
       const sel = bits.length ? ` · 已選 ${bits.join("／")}` : "";
       $("stats").textContent = `共 ${entries.length} 筆 · 目前顯示 ${list.length} 筆${sel}`;
+      const selected = activeYears.size + activeMonths.size + activeTags.size;
+      $("filterCount").textContent = selected ? `已選 ${selected}` : "點開選擇";
+      if (selected) $("filterPanel").open = true;
       renderList(list);
     }
 
