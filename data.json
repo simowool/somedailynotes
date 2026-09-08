@@ -1,6 +1,42 @@
 {
-  "updatedAt": "2026-09-08T00:05:00-07:00",
+  "updatedAt": "2026-09-08T01:23:00-07:00",
   "entries": [
+    {
+      "id": "20260908-humantxt-ai",
+      "createdAt": "2026-09-08T01:23:00-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "9月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "humantxt.ai — 降 AI／查 AI 寫作工具",
+      "summary": "網頁工具，主打降低 AI 寫作痕跡、AI 偵測、依個人語氣重寫，以及 Research Writer、GDocTyper 等整合工作區。宣傳重點含去除 Claude 浮水印、模擬真人打字節奏、恢復寫作痕跡。",
+      "source": {
+        "type": "screenshot",
+        "site": "humantxt.ai",
+        "url": "https://humantxt.ai/",
+        "note": "使用者分享產品畫面"
+      },
+      "facts": {
+        "url": "https://humantxt.ai/",
+        "taglineZh": "降AI · 查AI · 恢复写作痕迹",
+        "features": "Humanizer（降AI）、AI Detection（檢測）、Research Writer、GDocTyper、Write like my voice／Voice→Humanizer",
+        "claims": "去除 Claude 浮水印、模擬真人打字、恢復寫作痕跡、優化通過率（宣傳說法）",
+        "note": "工具用途偏「降低 AI 偵測痕跡」；學術／正式場合使用需自行判斷規範"
+      },
+      "refs": [
+        {
+          "title": "humantxt.ai",
+          "url": "https://humantxt.ai/"
+        }
+      ],
+      "tags": [
+        "工具",
+        "AI寫作",
+        "降AI"
+      ]
+    },
     {
       "id": "20260908-nanox-stain",
       "createdAt": "2026-09-08T00:05:00-07:00",
