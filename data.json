@@ -1,6 +1,51 @@
 {
-  "updatedAt": "2026-09-06T23:46:00-07:00",
+  "updatedAt": "2026-09-08T00:05:00-07:00",
   "entries": [
+    {
+      "id": "20260908-nanox-stain",
+      "createdAt": "2026-09-08T00:05:00-07:00",
+      "category": "購物",
+      "year": "2026",
+      "month": "9月",
+      "classification": {
+        "category": "購物",
+        "country": "日本"
+      },
+      "country": "日本",
+      "title": "LION NANOX シミ用 — 洗衣前局部去漬劑",
+      "summary": "日本 LION 的 NANOX 局部去漬劑，主打吃到沾到的汙漬與血跡；洗前直接塗在汙處、可輕拍滲透，塗完不要久放，立刻用一般洗衣精洗。無螢光劑，色衣也可用。包裝上有嬰幼兒圍兜示意，適合家庭吃髒衣物。",
+      "source": {
+        "type": "photo",
+        "note": "使用者拍攝產品照片",
+        "brand": "LION",
+        "product": "NANOX シミ用"
+      },
+      "facts": {
+        "brand": "LION（ライオン）",
+        "nameJa": "NANOX シミ用",
+        "use": "洗衣前局部處理：吃髒、一般汙漬、血跡（血跡宜先水洗）",
+        "how": "汙處塗到滲透；難洗處可輕輕「とんとん」拍；塗完勿久放，立即用洗衣精洗淨",
+        "caution": "放置可能變色；勿用於不可水洗／不可漂白衣物；先在不明顯處試色",
+        "size": "常見規格約 160g（市售）",
+        "feature": "漂白洗浄成分、無螢光、色柄物可用、拍打頭設計"
+      },
+      "refs": [
+        {
+          "title": "LION 官方產品頁 — NANOX シミ用",
+          "url": "https://www.lion.co.jp/ja/products/285"
+        },
+        {
+          "title": "LION FAQ — 塗後勿放置",
+          "url": "https://faq.lion.co.jp/faq_detail.html?id=10977"
+        }
+      ],
+      "tags": [
+        "購物",
+        "日本",
+        "洗衣",
+        "去漬"
+      ]
+    },
     {
       "id": "20260906-junyi-academy",
       "createdAt": "2026-09-06T23:46:00-07:00",
