@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-09-08T01:27:00-07:00",
+  "updatedAt": "2026-09-09T02:03:00-07:00",
   "entries": [
+    {
+      "id": "20260909-claude-prompt-modes",
+      "createdAt": "2026-09-09T02:03:00-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "9月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "Claude 提示前綴／模式備忘（社群流傳）",
+      "summary": "社群置頂留言整理的 Claude 提示技巧：在提示前後加特定字串，據說可改變語氣或產出型態。屬網路流傳用法，非官方功能說明；實際效果需自行驗證。",
+      "source": {
+        "type": "screenshot",
+        "platform": "短影音／社群留言（搜尋列可見 godot claude code）",
+        "commentAuthor": "GitHunter",
+        "note": "使用者分享截圖；畫面上方另有 Claude 做光合作用互動模擬的示範"
+      },
+      "facts": {
+        "ghost": "/ghost（幽靈模式）— 加在提示前，據說輸出更自然、像真人",
+        "artifacts": "/artifacts（製品模式）— 加在提示後，據說會把想法做成可跑的 App／Game／Dashboard",
+        "ooda": "OODA — 加在提示前，用軍事決策循環（Observe→Orient→Decide→Act）分析並給方案",
+        "l99": "L99（專家模式）— 加在提示後，據說以極專業專家水準回答",
+        "godMode": "/god mode（上帝模式）— 留言中該段折疊，截圖未顯示細節",
+        "disclaimer": "社群流傳寫法，非正式 Claude 指令文件"
+      },
+      "refs": [],
+      "tags": [
+        "工具",
+        "Claude",
+        "提示詞",
+        "AI"
+      ]
+    },
     {
       "id": "20260908-nanox-stain",
       "createdAt": "2026-09-08T00:05:00-07:00",
