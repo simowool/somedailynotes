@@ -1,6 +1,55 @@
 {
-  "updatedAt": "2026-09-09T02:03:00-07:00",
+  "updatedAt": "2026-09-11T21:22:00-07:00",
   "entries": [
+    {
+      "id": "20260911-keung-kee-dai-pai-dong",
+      "createdAt": "2026-09-11T21:22:00-07:00",
+      "category": "餐廳",
+      "year": "2026",
+      "month": "9月",
+      "country": "香港",
+      "city": "深水埗",
+      "classification": {
+        "category": "餐廳",
+        "country": "香港",
+        "city": "深水埗"
+      },
+      "title": "強記大排檔 — 深水埗基隆街港式海鮮",
+      "summary": "香港深水埗街邊大排檔風格海鮮店，地址基隆街 219 號地舖；OpenRice 等標為港式海鮮，常見推薦白灼蝦、豉椒炒蜆等。港鐵深水埗站 A2 出口步行約數分鐘。",
+      "source": {
+        "type": "google_maps",
+        "url": "https://maps.app.goo.gl/E1hh4ZdBntpcvAha7?g_st=ic",
+        "resolvedName": "Keung Kee Dai Pai Dong",
+        "resolvedAddress": "219 Ki Lung St, Sham Shui Po, Kowloon, Hong Kong"
+      },
+      "facts": {
+        "nameZh": "強記大排檔",
+        "nameEn": "Keung Kee Dai Pai Dong",
+        "address": "香港九龍深水埗基隆街 219 號地舖",
+        "access": "港鐵深水埗站 A2 出口，步行約 4 分鐘（OpenRice）",
+        "style": "港式海鮮／大排檔風格",
+        "hoursNote": "OpenRice 參考：星期一至六 07:30–23:00，星期日休息（請以現場為準）",
+        "phoneNote": "公開資料可見 66937762 等號碼，可能有變更",
+        "dishes": "食評常見白灼蝦、豉椒炒蜆、沙薑雞等"
+      },
+      "refs": [
+        {
+          "title": "Google Maps 分享連結",
+          "url": "https://maps.app.goo.gl/E1hh4ZdBntpcvAha7?g_st=ic"
+        },
+        {
+          "title": "OpenRice — 強記大排檔",
+          "url": "https://www.openrice.com/zh/hongkong/r-%E5%BC%B7%E8%A8%98%E5%A4%A7%E6%8E%92%E6%AA%94-%E6%B7%B1%E6%B0%B4%E5%9F%97-%E6%B8%AF%E5%BC%8F-%E6%B5%B7%E9%AE%AE-r12689"
+        }
+      ],
+      "tags": [
+        "餐廳",
+        "香港",
+        "深水埗",
+        "大牌檔",
+        "海鮮"
+      ]
+    },
     {
       "id": "20260909-claude-prompt-modes",
       "createdAt": "2026-09-09T02:03:00-07:00",
