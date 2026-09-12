@@ -1,6 +1,60 @@
 {
-  "updatedAt": "2026-09-11T21:22:00-07:00",
+  "updatedAt": "2026-09-12T09:25:00-07:00",
   "entries": [
+    {
+      "id": "20260912-fun-maker-neihu",
+      "createdAt": "2026-09-12T09:25:00-07:00",
+      "category": "地方",
+      "year": "2026",
+      "month": "9月",
+      "country": "台灣",
+      "city": "台北",
+      "classification": {
+        "category": "地方",
+        "country": "台灣",
+        "city": "台北",
+        "area": "內湖"
+      },
+      "title": "Fun-Maker 數位手作工坊 — 內湖港華街",
+      "summary": "台北內湖的原創 DIY 手作工坊／教室，提供親子與大人木作、STEAM 手作課程與 DIY 禮盒；採預約制。捷運文湖線港墘站 1 號出口步行約 6 分鐘。",
+      "source": {
+        "type": "google_maps",
+        "url": "https://maps.app.goo.gl/9sfcPL7D3JPiBGQd8?g_st=ic",
+        "resolvedName": "Fun-Maker 數位手作工坊",
+        "resolvedAddress": "No. 67, Ganghua St, Ganghua Village, Neihu District, Taipei City, Taiwan 114"
+      },
+      "facts": {
+        "nameZh": "Fun-Maker 數位手作工坊",
+        "address": "台北市內湖區港華街 67 號 1 樓（港華街 69 號旁巷內）",
+        "access": "捷運文湖線港墘站 1 號出口，步行約 6 分鐘",
+        "style": "預約制手作體驗／木作 DIY／親子與 STEAM 課程、DIY 禮盒",
+        "phone": "(02)8797-6685",
+        "hoursNote": "FunNow 參考：週一公休；週二至週日約 10:00–18:00（請以現場／預約為準）",
+        "site": "https://funmaker.co/"
+      },
+      "refs": [
+        {
+          "title": "Google Maps 分享連結",
+          "url": "https://maps.app.goo.gl/9sfcPL7D3JPiBGQd8?g_st=ic"
+        },
+        {
+          "title": "Fun-Maker 官方網站",
+          "url": "https://funmaker.co/"
+        },
+        {
+          "title": "關於我們／地址",
+          "url": "https://funmaker.co/about_us"
+        }
+      ],
+      "tags": [
+        "地方",
+        "台灣",
+        "台北",
+        "內湖",
+        "手作",
+        "親子"
+      ]
+    },
     {
       "id": "20260911-keung-kee-dai-pai-dong",
       "createdAt": "2026-09-11T21:22:00-07:00",
