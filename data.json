@@ -1,6 +1,60 @@
 {
-  "updatedAt": "2026-09-13T22:36:00-07:00",
+  "updatedAt": "2026-09-14T14:36:00-07:00",
   "entries": [
+    {
+      "id": "20260914-ubc-course-tools",
+      "createdAt": "2026-09-14T14:36:00-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "9月",
+      "country": "加拿大",
+      "city": "溫哥華",
+      "classification": {
+        "category": "工具",
+        "country": "加拿大",
+        "city": "溫哥華"
+      },
+      "title": "UBC 選課常用工具清單（Workday／Scheduler／Finder）",
+      "summary": "社群整理的 UBC 新生選課工具：官方 Workday（含 Saved Schedules）、各學院 Degree Requirements 頁，以及非官方排課視覺化 UBC Scheduler、課程成績／選課參考 UBCFinder。",
+      "source": {
+        "type": "screenshot",
+        "note": "社群貼文「UBC选课必备工具」整理；非 UBC 官方公告"
+      },
+      "facts": {
+        "workday": "官方平台：查課、選課、註冊；需 CWL 登入",
+        "savedSchedules": "Workday 內 Saved Schedules：開搶前先排好課表、查衝突，開搶後快速 Register",
+        "degreeRequirements": "搜尋「學院名 + degree requirements」看各年級必修與學分",
+        "scheduler": "非官方排課視覺化 https://ubcscheduler.ca/（另有 github.io 版本）；避衝突、調時段、篩教授、支援 Vancouver／Okanagan",
+        "finder": "非官方選課參考 https://ubcfinder.com/：歷史成績分布、修課人數、先修、教授資訊等",
+        "officialCourseSchedule": "官方課程查詢 https://courses.students.ubc.ca/",
+        "disclaimer": "第三方工具非正式註冊系統；實際選課以 Workday 為準"
+      },
+      "refs": [
+        {
+          "title": "UBC Workday（需 CWL）",
+          "url": "https://myworkday.ubc.ca/"
+        },
+        {
+          "title": "UBC Course Schedule",
+          "url": "https://courses.students.ubc.ca/"
+        },
+        {
+          "title": "UBC Course Scheduler",
+          "url": "https://ubcscheduler.ca/"
+        },
+        {
+          "title": "UBCFinder",
+          "url": "https://ubcfinder.com/"
+        }
+      ],
+      "tags": [
+        "工具",
+        "加拿大",
+        "UBC",
+        "選課",
+        "留學"
+      ]
+    },
     {
       "id": "20260913-uwaterloo-math-circles",
       "createdAt": "2026-09-13T22:36:00-07:00",
