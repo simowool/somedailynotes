@@ -1,6 +1,51 @@
 {
-  "updatedAt": "2026-09-12T09:25:00-07:00",
+  "updatedAt": "2026-09-13T22:36:00-07:00",
   "entries": [
+    {
+      "id": "20260913-uwaterloo-math-circles",
+      "createdAt": "2026-09-13T22:36:00-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "9月",
+      "country": "加拿大",
+      "city": "滑鐵盧",
+      "classification": {
+        "category": "工具",
+        "country": "加拿大",
+        "city": "滑鐵盧"
+      },
+      "title": "Math Circles — University of Waterloo CEMC",
+      "summary": "滑鐵盧大學 CEMC 免費每週數學充實活動，面向 Grade 6–12；秋季／冬季各約八週，探討課綱外主題。6–10 年級可面授或線上，11–12 年級僅面授；亦可只收教材。Fall 2026 報名約 9/10 中午開至 9/28；面授改申請制、線上先到先得。",
+      "source": {
+        "type": "website",
+        "site": "CEMC University of Waterloo",
+        "url": "https://cemc.uwaterloo.ca/workshops/student-workshops/math-circles",
+        "title": "Math Circles | University of Waterloo - CEMC"
+      },
+      "facts": {
+        "organizer": "CEMC, University of Waterloo",
+        "audience": "Grade 6–12（分 Grade 6／7–8／9–10／11–12 等級）",
+        "cost": "完全免費",
+        "format": "每週一次，連續八週；面授＋線上（11–12 僅面授）；另有 materials-only",
+        "fall2026": "約 Oct 5–Nov 26 共 8 週；報名 2026-09-10 12:00 至 09-28 23:59",
+        "winter2027": "約 Feb 8–Apr 8（中間有春假空檔）",
+        "contact": "mathcircles@uwaterloo.ca",
+        "note": "2026 起報名流程有改，報名前請看官網最新說明"
+      },
+      "refs": [
+        {
+          "title": "Math Circles 官方頁",
+          "url": "https://cemc.uwaterloo.ca/workshops/student-workshops/math-circles"
+        }
+      ],
+      "tags": [
+        "工具",
+        "小孩學習資源",
+        "加拿大",
+        "滑鐵盧",
+        "數學"
+      ]
+    },
     {
       "id": "20260912-fun-maker-neihu",
       "createdAt": "2026-09-12T09:25:00-07:00",
