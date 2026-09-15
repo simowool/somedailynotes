@@ -1,6 +1,42 @@
 {
-  "updatedAt": "2026-09-14T14:36:00-07:00",
+  "updatedAt": "2026-09-15T14:01:00-07:00",
   "entries": [
+    {
+      "id": "20260915-anthropic-quickstarts",
+      "createdAt": "2026-09-15T14:01:00-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "9月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "Anthropic Quickstarts — Claude API 官方快速啟動專案集",
+      "summary": "影片所稱 The Anthropic Fast Start File，對應官方開源庫 github.com/anthropics/anthropic-quickstarts。內含多個可部署的 Claude API 快速啟動範例（如 Customer Support Agent、Financial Data Analyst、Computer Use Demo 等），各子目錄有獨立 README 與搭建步驟。",
+      "source": {
+        "type": "note",
+        "note": "使用者整理自影片說明，並對應官方 GitHub 倉庫"
+      },
+      "facts": {
+        "repo": "https://github.com/anthropics/anthropic-quickstarts",
+        "org": "anthropics（Anthropic 官方）",
+        "purpose": "協助開發者快速用 Claude API 建可部署應用",
+        "examples": "Customer Support Agent、Financial Data Analyst、Computer Use Demo 等（以倉庫當前目錄為準）",
+        "structure": "每個子專案獨立 README 與搭建步驟"
+      },
+      "refs": [
+        {
+          "title": "anthropics/anthropic-quickstarts",
+          "url": "https://github.com/anthropics/anthropic-quickstarts"
+        }
+      ],
+      "tags": [
+        "工具",
+        "Claude",
+        "Anthropic",
+        "開源",
+        "AI"
+      ]
+    },
     {
       "id": "20260914-ubc-course-tools",
       "createdAt": "2026-09-14T14:36:00-07:00",
