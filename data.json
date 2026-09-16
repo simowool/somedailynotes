@@ -1,6 +1,47 @@
 {
-  "updatedAt": "2026-09-15T14:01:00-07:00",
+  "updatedAt": "2026-09-15T18:36:00-07:00",
   "entries": [
+    {
+      "id": "20260915-harvard-resilience-relationships",
+      "createdAt": "2026-09-15T18:36:00-07:00",
+      "category": "知識",
+      "year": "2026",
+      "month": "9月",
+      "classification": {
+        "category": "知識"
+      },
+      "title": "哈佛發展中兒童中心：韌性來自穩定關係與可掌控的空間",
+      "summary": "哈佛發展中兒童中心工作報告指出：孩子需要的是穩定的大人關係，以及一點自己能掌控的空間——不是一直被誇聰明。逆境中最大的保護傘是至少一位穩定、關懷且能及時回應的成人；成長像天秤，支點（基因與氣質）可透過執行功能技能練習而移動；並澄清「吃苦就會堅強／韌性是個性／處處都該一樣堅強」等迷思。",
+      "source": {
+        "type": "threads_note",
+        "account": "daddyatthedesk",
+        "posted": "2026-09-07",
+        "url": "https://developingchild.harvard.edu/resources/working-paper/supportive-relationships-and-active-skill-building-strengthen-the-foundations-of-resilience/",
+        "paper": "Supportive Relationships and Active Skill-Building Strengthen the Foundations of Resilience (Working Paper No. 13, 2015)"
+      },
+      "facts": {
+        "oneLiner": "穩定的大人關係 + 一點可掌控空間 > 一直被誇聰明",
+        "key1": "逆境中最大的保護傘：至少一位穩定、充滿關懷、能及時回應的成人（父母、照顧者、老師或親友）。有大人陪著接住情緒，壓力會變成「可耐受的挑戰」；長期缺乏支持則可能變成損害大腦與免疫的毒性壓力（toxic stress）。",
+        "key2": "發展像天秤／蹺蹺板：一邊是壓力與負面事件，另一邊是保護性經驗與技能；中間支點是先天基因與氣質。支點可移動——透過練習自我調節、情緒管理、規劃與解決問題等執行功能，支點會往更有利的方向滑動。",
+        "myth1": "❌「吃得苦中苦」：純粹苦難不會自動變堅強；極端且缺乏支持的壓力留下的是創傷與慢性發炎。",
+        "myth2": "❌「堅強是一種個性」：沒有所謂韌性基因；抗壓性是天生特質與人際支持、環境互動的結果。",
+        "myth3": "❌「在學校勇敢，在家也該一樣」：韌性具情境特殊性；同儕摩擦能應付、家庭衝突卻崩潰，很正常，需分開理解與支持。",
+        "takeaway": "你的陪伴與回應，就是孩子生理與心理最堅固的避震器。"
+      },
+      "refs": [
+        {
+          "title": "Harvard Center on the Developing Child — Working Paper No. 13",
+          "url": "https://developingchild.harvard.edu/resources/working-paper/supportive-relationships-and-active-skill-building-strengthen-the-foundations-of-resilience/"
+        }
+      ],
+      "tags": [
+        "知識",
+        "育兒",
+        "韌性",
+        "哈佛",
+        "親子"
+      ]
+    },
     {
       "id": "20260915-anthropic-quickstarts",
       "createdAt": "2026-09-15T14:01:00-07:00",
