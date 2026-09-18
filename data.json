@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-09-15T20:17:00-07:00",
+  "updatedAt": "2026-09-17T19:15:00-07:00",
   "entries": [
+    {
+      "id": "20260917-the-spring-fusion-zhongshan",
+      "createdAt": "2026-09-17T19:15:00-07:00",
+      "category": "餐廳",
+      "year": "2026",
+      "month": "9月",
+      "country": "台灣",
+      "city": "台北",
+      "classification": {
+        "category": "餐廳",
+        "country": "台灣",
+        "city": "台北",
+        "area": "中山"
+      },
+      "title": "THE·春 Fusion 中山 — 中山北路三段創作日料",
+      "summary": "台北中山區日式／Fusion 料理；Google Maps 標為 THE·Spring Changchun Branch。地址中山北路三段 23 號，近晴光市場，捷運民權西路站步行約 6 分鐘。公開食記多寫握壽司、刺身、丼飯與海鮮珠寶盒等，兩層樓木質空間；原長春路店歇業後遷至此址並以 Fusion 中山經營。",
+      "source": {
+        "type": "google_maps",
+        "url": "https://maps.app.goo.gl/RrRTgbMLLeq2ssY37?g_st=ic",
+        "resolvedName": "THE·Spring Changchun Branch",
+        "resolvedAddress": "No. 23號, Section 3, Zhongshan N Rd, Heng'an Village, Zhongshan District, Taipei City, Taiwan 10491",
+        "resolvedPlaceUrl": "https://www.google.com/maps?q=THE%C2%B7Spring+Changchun+Branch,+No.+23%E8%99%9F,+Section+3,+Zhongshan+N+Rd,+Heng%27an+Village,+Zhongshan+District,+Taipei+City,+Taiwan+10491&ftid=0x3442ab679418338d:0xf42d62fee0855a14"
+      },
+      "facts": {
+        "nameZh": "THE·春 Fusion 中山",
+        "nameEn": "THE·Spring Changchun Branch（Google Maps 顯示名）",
+        "address": "台北市中山區中山北路三段 23 號",
+        "access": "捷運民權西路站步行約 6 分鐘；近晴光市場",
+        "style": "創作日本料理／Fusion 日料：握壽司、刺身、丼飯、手捲、海鮮珠寶盒等",
+        "phone": "(02)8712-7962",
+        "hoursNote": "公開食記／愛食記參考：約 11:30–14:00、17:30–21:30（請以現場或粉絲團為準）",
+        "note": "公開資料指原「長春店」（長春路）歇業後遷至中山北路三段現址，現多稱 Fusion 中山；台北另有板橋分店等資訊，以官方／現場為準"
+      },
+      "refs": [
+        {
+          "title": "Google Maps 分享連結",
+          "url": "https://maps.app.goo.gl/RrRTgbMLLeq2ssY37?g_st=ic"
+        },
+        {
+          "title": "Google Maps 解析後地點",
+          "url": "https://www.google.com/maps?q=THE%C2%B7Spring+Changchun+Branch,+No.+23%E8%99%9F,+Section+3,+Zhongshan+N+Rd,+Heng%27an+Village,+Zhongshan+District,+Taipei+City,+Taiwan+10491&ftid=0x3442ab679418338d:0xf42d62fee0855a14"
+        },
+        {
+          "title": "食尚玩家／店家資訊卡（歷史長春店條目）",
+          "url": "https://supertaste.tvbs.com.tw/infocard/21823"
+        },
+        {
+          "title": "愛食記 — THE春 Fusion 中山",
+          "url": "https://ifoodie.tw/restaurant/681a0ca9927f8058f68cbd05-THE%E6%98%A5-Fusion-%E4%B8%AD%E5%B1%B1"
+        }
+      ],
+      "tags": [
+        "餐廳",
+        "台灣",
+        "台北",
+        "中山",
+        "日式料理",
+        "Fusion"
+      ]
+    },
     {
       "id": "20260915-anthropic-quickstarts",
       "createdAt": "2026-09-15T14:01:00-07:00",
