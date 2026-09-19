@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-09-18T18:13:00-07:00",
+  "updatedAt": "2026-09-19T05:04:00-07:00",
   "entries": [
+    {
+      "id": "20260919-tabe-yakiniku-zhongshan",
+      "createdAt": "2026-09-19T05:04:00-07:00",
+      "category": "餐廳",
+      "year": "2026",
+      "month": "9月",
+      "country": "台灣",
+      "city": "台北",
+      "classification": {
+        "category": "餐廳",
+        "country": "台灣",
+        "city": "台北",
+        "area": "中山"
+      },
+      "title": "TABE YAKINIKU 吃燒肉 — 中山七條通單片燒肉",
+      "summary": "台北中山區林森北路七條通巷內日式燒肉；主打單片肉品／蔬菜單點，一人也能輕鬆吃燒肉。地址林森北路 119 巷 20 號 1 樓；公開資料多寫捷運中山站步行約 9 分鐘，近善導寺。電話 (02)2511-0809；營業時間公開來源多為晚間約 18:00–23:00（舊食記曾寫至 00:00、週日公休），請以現場為準。",
+      "source": {
+        "type": "google_maps",
+        "url": "https://maps.app.goo.gl/oHDyths5qBxwwBnY6?g_st=ic",
+        "resolvedName": "TABE YAKINIKU 吃燒肉",
+        "resolvedAddress": "104, Taiwan, Taipei City, Zhongshan District, Zhengyi Village, Lane 119, Linsen N Rd, 20號",
+        "resolvedPlaceUrl": "https://www.google.com/maps?q=TABE+YAKINIKU+%E5%90%83%E7%87%92%E8%82%89,+No.+20,+Lane+119,+Linsen+N+Rd,+Zhongshan+District,+Taipei+City,+Taiwan+104&ftid=0x3442a90377431911:0xd9d649282f44b8ef"
+      },
+      "facts": {
+        "nameZh": "TABE YAKINIKU 吃燒肉",
+        "nameEn": "TABE YAKINIKU",
+        "address": "台北市中山區林森北路 119 巷 20 號 1 樓（七條通）",
+        "access": "捷運中山站步行約 9 分鐘；近善導寺站（約 0.4 km）",
+        "style": "日式燒肉；單片肉品／蔬菜單點，適合一人用餐（公開食記／GQ 等）",
+        "phone": "(02)2511-0809",
+        "hoursNote": "公開來源多寫約 18:00–23:00；舊食記曾寫週一至六 18:00–00:00、週日公休（請以現場／粉絲團為準）",
+        "note": "店名 TABE 即日文「食べ」／吃之意；公開報導稱早期為單片單點式燒肉小店，L 型吧檯＋個人烤爐"
+      },
+      "refs": [
+        {
+          "title": "Google Maps 分享連結",
+          "url": "https://maps.app.goo.gl/oHDyths5qBxwwBnY6?g_st=ic"
+        },
+        {
+          "title": "Google Maps 解析後地點",
+          "url": "https://www.google.com/maps?q=TABE+YAKINIKU+%E5%90%83%E7%87%92%E8%82%89,+No.+20,+Lane+119,+Linsen+N+Rd,+Zhongshan+District,+Taipei+City,+Taiwan+104&ftid=0x3442a90377431911:0xd9d649282f44b8ef"
+        },
+        {
+          "title": "愛食記 — TABE YAKINIKU 吃燒肉",
+          "url": "https://ifoodie.tw/restaurant/5c510d43f5246819000a77df-TABE-YAKINIKU-%E5%90%83%E7%87%92%E8%82%89"
+        },
+        {
+          "title": "GQ Taiwan — 單點燒肉介紹",
+          "url": "https://www.gq.com.tw/life/content-38546"
+        }
+      ],
+      "tags": [
+        "餐廳",
+        "台灣",
+        "台北",
+        "中山",
+        "燒肉",
+        "日式"
+      ]
+    },
     {
       "id": "20260918-us-etf-rsp-iyw-moat-pff-vnq",
       "createdAt": "2026-09-18T18:13:00-07:00",
