@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-09-19T05:04:00-07:00",
+  "updatedAt": "2026-09-19T05:07:00-07:00",
   "entries": [
+    {
+      "id": "20260919-hua-goose-shop-zhongshan",
+      "createdAt": "2026-09-19T05:07:00-07:00",
+      "category": "餐廳",
+      "year": "2026",
+      "month": "9月",
+      "country": "台灣",
+      "city": "台北",
+      "classification": {
+        "category": "餐廳",
+        "country": "台灣",
+        "city": "台北",
+        "area": "中山"
+      },
+      "title": "樺鵝肉（Hua Goose Shop）— 中山長春路台式鵝肉",
+      "summary": "台北中山區長春路台式鵝肉專賣；Google Maps 顯示名 Hua Goose Shop。地址長春路 83 號，近新生北路／長春路口，捷運松江南京站步行約 10–15 分鐘。公開食記多寫鵝肉、鵝血糕、鵝掌、下水湯與麵飯小菜；營業時間常見週一至六約 17:00–02:00、週日公休，請以現場為準。",
+      "source": {
+        "type": "google_maps",
+        "url": "https://maps.app.goo.gl/p3KBKUPEZ11SsFra6?g_st=ic",
+        "resolvedName": "Hua Goose Shop",
+        "resolvedAddress": "No. 83號, Changchun Rd, Zhongyuan Village, Zhongshan District, Taipei City, Taiwan 10491",
+        "resolvedPlaceUrl": "https://www.google.com/maps?q=Hua+Goose+Shop,+No.+83%E8%99%9F,+Changchun+Rd,+Zhongyuan+Village,+Zhongshan+District,+Taipei+City,+Taiwan+10491&ftid=0x3442a94336046337:0x7a372254bdd64352"
+      },
+      "facts": {
+        "nameZh": "樺鵝肉",
+        "nameEn": "Hua Goose Shop（Google Maps 顯示名）",
+        "address": "台北市中山區長春路 83 號",
+        "access": "捷運松江南京站步行約 10–15 分鐘；近長春路與新生北路交叉口",
+        "style": "台式鵝肉專賣／小吃：鵝肉、鵝血糕、鵝掌、下水湯、麵飯與小菜",
+        "phone": "(02)2537-3939",
+        "hoursNote": "公開來源多寫週一至六約 17:00–02:00、週日公休（請以現場為準）",
+        "note": "公開食記稱原錦西街店後遷至長春路；亦見「樺傳統古早味鵝肉料理」等名稱；Uber Eats 等有外送"
+      },
+      "refs": [
+        {
+          "title": "Google Maps 分享連結",
+          "url": "https://maps.app.goo.gl/p3KBKUPEZ11SsFra6?g_st=ic"
+        },
+        {
+          "title": "Google Maps 解析後地點",
+          "url": "https://www.google.com/maps?q=Hua+Goose+Shop,+No.+83%E8%99%9F,+Changchun+Rd,+Zhongyuan+Village,+Zhongshan+District,+Taipei+City,+Taiwan+10491&ftid=0x3442a94336046337:0x7a372254bdd64352"
+        },
+        {
+          "title": "愛食記 — 樺鵝肉",
+          "url": "https://ifoodie.tw/restaurant/6a5636cf927f80a30df6aad8-%E6%A8%BA%E9%B5%9D%E8%82%89"
+        },
+        {
+          "title": "upssmile — 樺鵝肉食記",
+          "url": "https://upssmile.com/280936/huagoose"
+        }
+      ],
+      "tags": [
+        "餐廳",
+        "台灣",
+        "台北",
+        "中山",
+        "鵝肉",
+        "台式"
+      ]
+    },
     {
       "id": "20260919-tabe-yakiniku-zhongshan",
       "createdAt": "2026-09-19T05:04:00-07:00",
