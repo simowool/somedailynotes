@@ -1,6 +1,60 @@
 {
-  "updatedAt": "2026-09-17T19:15:00-07:00",
+  "updatedAt": "2026-09-18T18:13:00-07:00",
   "entries": [
+    {
+      "id": "20260918-us-etf-rsp-iyw-moat-pff-vnq",
+      "createdAt": "2026-09-18T18:13:00-07:00",
+      "category": "知識",
+      "year": "2026",
+      "month": "9月",
+      "classification": {
+        "category": "知識"
+      },
+      "title": "美股 ETF 五件組筆記：RSP 打底、IYW 攻、MOAT 守、PFF／VNQ 造血",
+      "summary": "截圖筆記整理的一組美股 ETF 配置思路：RSP（S&P 500 等權重）打底、IYW（美股科技）進攻、MOAT（寬護城河）防守、PFF（優先股，月配）與 VNQ（REIT，季配）持續現金流；每年再平衡一次。筆記並提醒：指數過去表現不代表未來，投資有風險。",
+      "source": {
+        "type": "screenshot_note",
+        "note": "使用者分享之筆記截圖（簡體原文，此處整理為繁體知識條）"
+      },
+      "facts": {
+        "RSP": "Invesco S&P 500 Equal Weight ETF — 等權重 S&P 500，筆記稱作打底，相對市值加權在下跌時可能較有韌性",
+        "IYW": "iShares U.S. Technology ETF — 科技成長，筆記稱「全市場挑高成長龍頭」，彈性高於 QQQ",
+        "MOAT": "VanEck Morningstar Wide Moat ETF — 各產業寬護城河龍頭，筆記稱抗通膨／高利率防守",
+        "PFF": "iShares Preferred and Income Securities ETF — 優先股，筆記稱月配息",
+        "VNQ": "Vanguard Real Estate ETF — REIT，筆記稱季配息",
+        "logic": "底＝RSP；攻＝IYW；守＝MOAT；持續造血＝PFF＋VNQ；每年再平衡一次",
+        "disclaimer": "筆記來源影片強調：指數過去表現不代表未來，投資有風險"
+      },
+      "refs": [
+        {
+          "title": "RSP — Invesco S&P 500 Equal Weight ETF",
+          "url": "https://www.invesco.com/us/en/financial-products/etfs/product-detail.html?productId=ETF-RSP"
+        },
+        {
+          "title": "IYW — iShares U.S. Technology ETF",
+          "url": "https://www.ishares.com/us/products/239522/ishares-us-technology-etf"
+        },
+        {
+          "title": "MOAT — VanEck Morningstar Wide Moat ETF",
+          "url": "https://www.vaneck.com/us/en/investments/morningstar-wide-moat-etf-moat/"
+        },
+        {
+          "title": "PFF — iShares Preferred and Income Securities ETF",
+          "url": "https://www.ishares.com/us/products/239826/ishares-us-preferred-stock-etf"
+        },
+        {
+          "title": "VNQ — Vanguard Real Estate ETF",
+          "url": "https://investor.vanguard.com/investment-products/etfs/profile/vnq"
+        }
+      ],
+      "tags": [
+        "知識",
+        "投資",
+        "ETF",
+        "美股",
+        "資產配置"
+      ]
+    },
     {
       "id": "20260917-the-spring-fusion-zhongshan",
       "createdAt": "2026-09-17T19:15:00-07:00",
