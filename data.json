@@ -1,6 +1,62 @@
 {
-  "updatedAt": "2026-09-19T05:07:00-07:00",
+  "updatedAt": "2026-09-19T18:17:00-07:00",
   "entries": [
+    {
+      "id": "20260919-chef-fatty-super-soap-cleaning",
+      "createdAt": "2026-09-19T18:17:00-07:00",
+      "category": "知識",
+      "year": "2026",
+      "month": "9月",
+      "classification": {
+        "category": "知識"
+      },
+      "title": "Chef Fatty「Super Soap」— 蘇打灰／雙氧水清廚房油垢（Facebook Reel）",
+      "summary": "Chef Fatty（Charles Kim）Facebook Reel 以科學觀點拆解清潔迷思：小蘇打＋白醋並不能清「幾乎任何東西」。他示範自製 Super Soap（蘇打灰＋溫水＋洗碗精）處理一般油垢，以及蘇打灰＋雙氧水＋少許洗碗精處理已聚合物化（polymerized）的硬焦油膜；並說明小蘇打烘烤可轉成蘇打灰。",
+      "source": {
+        "type": "facebook_reel",
+        "url": "https://www.facebook.com/share/r/1D729FcD3p/?mibextid=wwXIfr",
+        "resolvedUrl": "https://www.facebook.com/reel/1437380301632332/",
+        "creator": "Chef Fatty（Charles Kim／Chan Woo Kim）",
+        "caption": "what other hacks do you use? #cleaning",
+        "note": "公開 Reel；標題／說明取自 og:title 與畫面旁白"
+      },
+      "facts": {
+        "creator": "Chef Fatty — Charles Kim（網站稱 Chan Woo Kim），Seattle；以烹飪科學／短影音教學為主，跨 Facebook／TikTok／Instagram／YouTube（帳號常見 itscheffatty）",
+        "debunk": "影片開頭反駁「小蘇打＋白醋幾乎萬能」：兩者酸鹼中和，並非強效去油組合",
+        "washingSodaHow": "小蘇打（baking soda，碳酸氫鈉）鋪於烤盤，約 350°F（約 177°C）烘約 30 分鐘 → 轉成蘇打灰（washing soda，碳酸鈉）",
+        "superSoap": "約半夸脫（half a quart）溫水 ＋ ½ 杯蘇打灰 ＋ 約兩湯匙洗碗精，混勻；影片對比顯示清塑膠餐盒油漬優於一般洗碗精",
+        "science": "洗碗精以介面活性劑「像磁鐵」拉走油脂但力道有限；蘇打灰偏強鹼，可助油脂皂化成可沖洗的皂類物質",
+        "polymerizedPaste": "硬焦、已聚合物化的鍋垢：約 ½ 杯蘇打灰 ＋ 5–6 湯匙雙氧水（hydrogen peroxide）＋ 少許洗碗精，混勻後靜置約 30 分鐘再刷洗",
+        "resultDemo": "影片末示範刷洗後不鏽鋼鍋面恢復光亮",
+        "caution": "蘇打灰偏鹼，避免用於鋁／部分鍍膜或不耐鹼材質；雙氧水勿入眼、勿與不明清潔劑混用；請依現場材質自行判斷"
+      },
+      "refs": [
+        {
+          "title": "Facebook 分享連結（原始）",
+          "url": "https://www.facebook.com/share/r/1D729FcD3p/?mibextid=wwXIfr"
+        },
+        {
+          "title": "Facebook Reel（解析後）",
+          "url": "https://www.facebook.com/reel/1437380301632332/"
+        },
+        {
+          "title": "Chef Fatty — About",
+          "url": "https://www.cheffatty.com/about"
+        },
+        {
+          "title": "Chef Fatty — Homemade Powerwash（相關清潔科學文）",
+          "url": "https://www.cheffatty.com/science/homemade-powerwash"
+        }
+      ],
+      "tags": [
+        "知識",
+        "清潔",
+        "廚房",
+        "蘇打灰",
+        "生活妙招",
+        "Chef Fatty"
+      ]
+    },
     {
       "id": "20260919-hua-goose-shop-zhongshan",
       "createdAt": "2026-09-19T05:07:00-07:00",
