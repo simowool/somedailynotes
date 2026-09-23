@@ -1,6 +1,100 @@
 {
-  "updatedAt": "2026-09-19T18:17:00-07:00",
+  "updatedAt": "2026-09-23T01:24:00-07:00",
   "entries": [
+    {
+      "id": "20260923-localsend",
+      "createdAt": "2026-09-23T01:24:00-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "9月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "LocalSend — 開源跨平台區域網路檔案分享（類 AirDrop）",
+      "summary": "免費開源的跨平台檔案／訊息分享工具，透過區域 Wi‑Fi／LAN 直接傳輸，無需帳號、雲端或外網。支援 Windows、macOS、Linux、Android、iOS；傳輸採 HTTPS／TLS 加密，可選 PIN 驗證。官方網站 localsend.org，原始碼 github.com/localsend/localsend。",
+      "source": {
+        "type": "note",
+        "note": "使用者短名 localsend；對應官方產品 LocalSend",
+        "url": "https://localsend.org/"
+      },
+      "facts": {
+        "what": "開源跨平台區域網路檔案分享，常被視為 AirDrop 的跨裝置替代方案",
+        "platforms": "Windows、macOS、Linux、Android、iOS",
+        "privacy": "資料不離開本機網路；無需帳號／登入／第三方伺服器",
+        "security": "HTTPS／TLS 加密；可啟用 PIN 驗證",
+        "license": "Apache License 2.0（以 GitHub 倉庫為準）",
+        "tech": "以 Flutter／Dart 實作；裝置間以 REST API 溝通",
+        "releaseNote": "查證時最新釋出可見 v1.18.2（2026-08-21，GitHub Releases）",
+        "install": "官網下載頁 https://localsend.org/download 或 GitHub Releases"
+      },
+      "refs": [
+        {
+          "title": "LocalSend 官網",
+          "url": "https://localsend.org/"
+        },
+        {
+          "title": "localsend/localsend（GitHub）",
+          "url": "https://github.com/localsend/localsend"
+        },
+        {
+          "title": "LocalSend Downloads",
+          "url": "https://localsend.org/download"
+        }
+      ],
+      "tags": [
+        "工具",
+        "開源",
+        "檔案分享",
+        "跨平台",
+        "LocalSend",
+        "AirDrop"
+      ]
+    },
+    {
+      "id": "20260923-stats-exelban",
+      "createdAt": "2026-09-23T01:23:30-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "9月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "Stats（exelban）— macOS 選單列系統監控",
+      "summary": "免費開源的 macOS 選單列系統監控（作者 exelban）：可即時顯示 CPU、GPU、記憶體、磁碟、網路、感測器、電池、藍牙裝置電量與時鐘等模組。支援 Apple Silicon 與 Intel；可用 Homebrew（brew install stats）或 GitHub 安裝。常被視為 iStat Menus 的免費替代。",
+      "source": {
+        "type": "note",
+        "note": "使用者短名 stats；對應 GitHub exelban/stats（Mac 選單列監控）",
+        "url": "https://github.com/exelban/stats"
+      },
+      "facts": {
+        "what": "macOS 選單列系統監控，免授權、無廣告追蹤",
+        "author": "exelban",
+        "modules": "CPU、GPU、RAM、Disk、Network、Sensors、Battery、Bluetooth、Clock 等",
+        "requirement": "GitHub README 寫需 macOS 12（Monterey）以上；社群頁面亦寫 macOS 12+",
+        "install": "brew install stats，或自 GitHub Releases／https://mac-stats.com/ 下載",
+        "tahoeNote": "macOS 26（Tahoe）起選單列項目需在「系統設定 → 選單列」允許 Stats 顯示",
+        "alternativesNoted": "名稱「stats」亦可能指其他統計／監控專案；此處採 Mac 用戶最常見的 exelban/stats",
+        "related": "同生態另有遠端儀表板類產品 System Stats（system-stats.com），與此選單列 App 不同"
+      },
+      "refs": [
+        {
+          "title": "exelban/stats（GitHub）",
+          "url": "https://github.com/exelban/stats"
+        },
+        {
+          "title": "Stats — mac-stats.com",
+          "url": "https://mac-stats.com/"
+        }
+      ],
+      "tags": [
+        "工具",
+        "開源",
+        "macOS",
+        "系統監控",
+        "選單列",
+        "Stats"
+      ]
+    },
     {
       "id": "20260919-chef-fatty-super-soap-cleaning",
       "createdAt": "2026-09-19T18:17:00-07:00",
