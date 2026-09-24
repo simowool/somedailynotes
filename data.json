@@ -1,6 +1,159 @@
 {
-  "updatedAt": "2026-09-23T01:24:00-07:00",
+  "updatedAt": "2026-09-23T17:58:00-07:00",
   "entries": [
+    {
+      "id": "20260923-univer",
+      "createdAt": "2026-09-23T17:58:00-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "9月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "Univer — 面向 AI Agent 的開源「AI 辦公」SDK（Sheets／Docs／Slides）",
+      "summary": "DreamNum 開源的全端 Office SDK（dream-num/univer）：可在瀏覽器與 Node.js 嵌入試算表、文件、簡報等，並以同一 Facade API 供人類與 AI Agent 共編。定位為「The Office Harness for AI Agents」；官網 univer.ai，文件 docs.univer.ai。授權 Apache-2.0。",
+      "source": {
+        "type": "screenshot_note",
+        "creator": "爱玩的飞鸟科技",
+        "note": "使用者分享之抖音風格截圖筆記（爱玩的飞鸟科技），推薦 GitHub 熱門開源工具；短名 univer。截圖宣稱「一天涨1100星」僅為社群貼文說法，非本站獨立驗證之星數變化。"
+      },
+      "facts": {
+        "what": "可嵌入產品的 Office SDK：試算表、文件、簡報（另有 Bases／Boards；PDF 規劃中），供 SaaS、內部工具與 AI 應用",
+        "orgRepo": "dream-num/univer（DreamNum）",
+        "positioning": "官方稱 The Office Harness for AI Agents；人類與 Agent 可在同一 runtime／檔案上協作",
+        "surfaces": "Sheets、Docs、Slides 為核心；產品生態另有 Workspace、CLI、MCP／Agent skills 等",
+        "runtime": "瀏覽器與 Node.js 同構；Canvas 渲染、公式引擎、外掛架構與 Facade API",
+        "license": "Apache License 2.0（以 GitHub 倉庫為準）",
+        "starsVerified": "查證時（2026-09-23 PT）GitHub 約 16,327 星",
+        "releaseNote": "查證時最新釋出可見 v0.25.2（2026-09-17，GitHub Releases）",
+        "related": "文件／官網：docs.univer.ai、univer.ai；AI Agent skills：dream-num/univer-sdk-skills"
+      },
+      "refs": [
+        {
+          "title": "dream-num/univer（GitHub）",
+          "url": "https://github.com/dream-num/univer"
+        },
+        {
+          "title": "Univer 官網",
+          "url": "https://www.univer.ai/"
+        },
+        {
+          "title": "Univer 文件",
+          "url": "https://docs.univer.ai/"
+        }
+      ],
+      "tags": [
+        "工具",
+        "開源",
+        "GitHub",
+        "Univer",
+        "AI辦公",
+        "AI Agent",
+        "試算表",
+        "SDK"
+      ]
+    },
+    {
+      "id": "20260923-video-use",
+      "createdAt": "2026-09-23T17:57:45-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "9月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "video-use — 用程式碼／編碼 Agent 剪輯影片（browser-use）",
+      "summary": "Browser Use 團隊開源的影片剪輯 skill（browser-use/video-use）：把原始素材丟進資料夾，以 Claude Code、Codex 等有 shell 能力的編碼 Agent 對話，產出 edit/final.mp4。以逐字稿＋時間軸合成圖驅動剪輯（非逐幀餵模型），可去語氣詞、調色、字幕與動畫疊加；需 ffmpeg 與 ElevenLabs API（轉錄）。授權 MIT。",
+      "source": {
+        "type": "screenshot_note",
+        "creator": "爱玩的飞鸟科技",
+        "note": "使用者分享之抖音風格截圖筆記（爱玩的飞鸟科技），推薦 GitHub 熱門開源工具；短名 video-use。截圖宣稱「一天涨1100星」僅為社群貼文說法，非本站獨立驗證之星數變化。"
+      },
+      "facts": {
+        "what": "以編碼 Agent 驅動的開源影片剪輯流程：轉寫→打包→LLM 決策→EDL→渲染→自我檢查",
+        "orgRepo": "browser-use/video-use（Browser Use 團隊）",
+        "workflow": "素材資料夾內啟動 Agent，說「剪成一支發布片」等；產出在 <videos_dir>/edit/final.mp4",
+        "techIdea": "LLM 不直接「看」整支影片，而是讀逐字級時間戳轉寫與必要時的 timeline 合成圖，以節省 token",
+        "features": "去 umm／uh 與死氣、ffmpeg 調色、切點 30ms 淡入淡出、燒錄字幕、HyperFrames／Remotion／Manim／PIL 動畫",
+        "deps": "ffmpeg（必要）；ElevenLabs Scribe API key（轉錄）；可選 yt-dlp",
+        "license": "MIT License（以 GitHub 倉庫為準）",
+        "starsVerified": "查證時（2026-09-23 PT）GitHub 約 26,492 星",
+        "related": "同生態另有 browser-use（網頁自動化）；雲端試用見 Browser Use Cloud"
+      },
+      "refs": [
+        {
+          "title": "browser-use/video-use（GitHub）",
+          "url": "https://github.com/browser-use/video-use"
+        },
+        {
+          "title": "video-use install.md",
+          "url": "https://github.com/browser-use/video-use/blob/main/install.md"
+        }
+      ],
+      "tags": [
+        "工具",
+        "開源",
+        "GitHub",
+        "video-use",
+        "影片剪輯",
+        "AI Agent",
+        "FFmpeg",
+        "browser-use"
+      ]
+    },
+    {
+      "id": "20260923-spirula",
+      "createdAt": "2026-09-23T17:57:30-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "9月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "Spirula Studio — 影片／照片 → 3D Gaussian Splatting（可再出網格）",
+      "summary": "harry7557558 開源的跨廠牌 3DGS 訓練工具（harry7557558/spirula-studio）：單一自包含二進位，從原始影片／照片做到 splat 再可出貼圖網格；內建抽幀、AI 遮罩與快速 SfM，無需另裝 Python／PyTorch／COLMAP。Vulkan 後端支援 NVIDIA／AMD／Intel／Apple；亦有 CUDA 選項。授權 GPL-3.0。社群截圖或稱「清流」，此處以官方倉庫名 Spirula Studio 為準。",
+      "source": {
+        "type": "screenshot_note",
+        "creator": "爱玩的飞鸟科技",
+        "note": "使用者分享之抖音風格截圖筆記（爱玩的飞鸟科技），推薦 GitHub 熱門開源工具；短名 spirula／「清流」影片轉 3D。截圖宣稱「一天涨1100星」僅為社群貼文說法，非本站獨立驗證之星數變化。"
+      },
+      "facts": {
+        "what": "端到端 3D Gaussian Splatting：影片／照片 → 抽幀 → AI 遮罩 → SfM → 訓練 splat → 可 meshing",
+        "orgRepo": "harry7557558/spirula-studio（作者 harry7557558）；相關實作譜系另有 spirulae-splat",
+        "nicknameNote": "來源截圖以「清流」等口語稱呼推介；官方產品名為 Spirula Studio",
+        "platforms": "Windows、Linux、macOS（2026-08 起 Apple Silicon 訓練已驗證）；Releases 提供二進位",
+        "backends": "Vulkan（跨廠牌，建議）與 CUDA（NVIDIA）",
+        "highlights": "約 8GB VRAM 可訓至千萬級 SH3 Gaussians；原生 fisheye／360°；多語 GUI／CLI（含繁體中文）",
+        "license": "GPL-3.0（以 GitHub 倉庫為準）",
+        "starsVerified": "查證時（2026-09-23 PT）GitHub 約 739 星",
+        "releaseNote": "查證時最新釋出可見 v2026.9.20（2026-09-20，GitHub Releases）",
+        "viewer": "倉庫提供 Web Viewer：harry7557558.github.io/spirula-studio/viewer/"
+      },
+      "refs": [
+        {
+          "title": "harry7557558/spirula-studio（GitHub）",
+          "url": "https://github.com/harry7557558/spirula-studio"
+        },
+        {
+          "title": "Spirula Studio Releases",
+          "url": "https://github.com/harry7557558/spirula-studio/releases"
+        },
+        {
+          "title": "Spirula Studio Web Viewer",
+          "url": "https://harry7557558.github.io/spirula-studio/viewer/"
+        }
+      ],
+      "tags": [
+        "工具",
+        "開源",
+        "GitHub",
+        "Spirula",
+        "3D",
+        "Gaussian Splatting",
+        "影片轉3D",
+        "Vulkan"
+      ]
+    },
     {
       "id": "20260923-localsend",
       "createdAt": "2026-09-23T01:24:00-07:00",
