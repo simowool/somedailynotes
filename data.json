@@ -1,6 +1,57 @@
 {
-  "updatedAt": "2026-09-23T17:58:00-07:00",
+  "updatedAt": "2026-09-24T13:48:00-07:00",
   "entries": [
+    {
+      "id": "20260924-video-shotcraft",
+      "createdAt": "2026-09-24T13:48:00-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "9月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "video-shotcraft — Claude Code／Codex 的開源「電影級產品片」Agent Skill（Remotion）",
+      "summary": "Vincentwei1021 開源的 AI 影片 skill（Vincentwei1021/video-shotcraft）：把 Claude Code 或 Codex 變成動態設計工作室，以 Remotion 為產品／行銷／發布／Demo 做分鏡、動畫與聲音設計；含鏡頭配方卡、運動預覽 Gallery、完整模板與 Motion Workbench。授權 Apache-2.0。線上 Gallery：vincentwei1021.github.io/video-shotcraft。",
+      "source": {
+        "type": "screenshot_note",
+        "creator": "爱玩的飞鸟科技",
+        "note": "使用者分享之抖音風格截圖筆記（爱玩的飞鸟科技），推薦若只裝一個 Skill 可選 video-shotcraft；標籤含鏡頭／運動／聲音／流程；短名 video-shotcraft。截圖說法僅為社群貼文來源，非本站獨立驗證之星數變化。"
+      },
+      "facts": {
+        "what": "面向 Claude Code／Codex 的 AI agent skill：以 Remotion 製作電影感產品宣傳、行銷、發布與 Demo 影片（真實頁面擷取、2.5D 運鏡、節拍剪接與 SFX）",
+        "orgRepo": "Vincentwei1021/video-shotcraft",
+        "included": "README 列明約 157 張鏡頭配方卡、214 個運動預覽／風格、可執行完整影片模板、Remotion 實作、組件與素材、製作方法論、剪映專案匯出、交付後 Motion Workbench",
+        "template": "內建 Ink Press 模板：約 36.2 秒、1920×1080、30fps、10 鏡頭（以官方 README 為準）",
+        "gallery": "線上 Gallery 可搜尋／篩選運動預覽：https://vincentwei1021.github.io/video-shotcraft/",
+        "install": "可對 Agent 說安裝倉庫連結，或以 npx skills add Vincentwei1021/video-shotcraft；亦可 clone 後 symlink 至 ~/.claude/skills 或 ~/.codex/skills",
+        "relatedSeries": "同作者系列另有 video-talkcraft（旁白／口播影片 skill）",
+        "license": "Apache License 2.0（以 GitHub 倉庫為準；Remotion 本體另有其授權條款）",
+        "starsVerified": "查證時（2026-09-24 PT）GitHub 約 9,429 星",
+        "note": "GitHub 倉庫 description 仍寫 152 cards／209 previews；本條「內容物」數字採當日 README「What's included」表列（157／214）"
+      },
+      "refs": [
+        {
+          "title": "Vincentwei1021/video-shotcraft（GitHub）",
+          "url": "https://github.com/Vincentwei1021/video-shotcraft"
+        },
+        {
+          "title": "video-shotcraft Gallery（GitHub Pages）",
+          "url": "https://vincentwei1021.github.io/video-shotcraft/"
+        }
+      ],
+      "tags": [
+        "工具",
+        "開源",
+        "GitHub",
+        "video-shotcraft",
+        "AI",
+        "影片",
+        "AI Agent",
+        "Remotion",
+        "Codex",
+        "Claude Code"
+      ]
+    },
     {
       "id": "20260923-univer",
       "createdAt": "2026-09-23T17:58:00-07:00",
