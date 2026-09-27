@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-09-27T14:38:16-07:00",
+  "updatedAt": "2026-09-27T15:49:14-07:00",
   "entries": [
+    {
+      "id": "20260927-hahalend",
+      "createdAt": "2026-09-27T15:49:14-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "9月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "Hahalend — Bitfinex 自動放貸機器人（讀取＋放貸權限）",
+      "summary": "Hahalend（hahalend.com）是面向 Bitfinex 保證金放貸市場的訂閱制自動放貸服務：資金留在交易所，API 金鑰僅讀取＋放貸、無法提現或交易；官網標示歷史年化約 8–15%、七日退款、固定月費不抽成，並提供自動掛單、利率飆升捕捉與分層定價策略。",
+      "source": {
+        "type": "website",
+        "site": "Hahalend",
+        "url": "https://hahalend.com",
+        "title": "Hahalend — Automatic Bitfinex Lending Bot",
+        "note": "依官網公開行銷頁整理；歷史利率與安全性說法為其宣傳口徑，非本站獨立驗證之報酬保證"
+      },
+      "facts": {
+        "what": "Bitfinex 保證金放貸（margin lending）自動掛單／續借機器人（SaaS）",
+        "custody": "資金留在 Bitfinex；宣稱金鑰僅讀取＋放貸，無法提現或交易",
+        "rateClaim": "官網標示歷史市場年化約 8–15%（非承諾報酬）；示範儀表板可見「本月利息／年化／在貸金額」等模擬數據",
+        "features": "自動掛單饋送、利率飆升捕捉（rate-spike）、複利續借；較高階方案含三檔拆分與總體訊號調價等",
+        "pricing": "固定月費、宣稱不抽利息；官網示例約 $5K–$25K 資金對應 $7／月（實際方案以官網為準）",
+        "refund": "七日退款窗口（扣除鏈上與處理手續費）",
+        "compare": "對照 Bitfinex 官方放貸工具、自架開源腳本、其他訂閱制放貸機器人",
+        "site": "https://hahalend.com"
+      },
+      "refs": [
+        {
+          "title": "Hahalend — Automatic Bitfinex Lending Bot",
+          "url": "https://hahalend.com"
+        }
+      ],
+      "tags": [
+        "工具",
+        "加密貨幣",
+        "Bitfinex",
+        "放貸",
+        "自動化",
+        "Hahalend",
+        "FinTech"
+      ]
+    },
     {
       "id": "20260927-lec-torelup",
       "createdAt": "2026-09-27T14:38:16-07:00",
