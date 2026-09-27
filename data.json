@@ -1,6 +1,67 @@
 {
-  "updatedAt": "2026-09-27T11:28:00-07:00",
+  "updatedAt": "2026-09-27T14:38:16-07:00",
   "entries": [
+    {
+      "id": "20260927-lec-torelup",
+      "createdAt": "2026-09-27T14:38:16-07:00",
+      "category": "購物",
+      "year": "2026",
+      "month": "9月",
+      "country": "日本",
+      "classification": {
+        "category": "購物",
+        "country": "日本"
+      },
+      "title": "LEC 激落ちくん トレループ — 高密度除塵刷（免水洗／盒內自清）",
+      "summary": "日本 LEC「激落ちくん」トレループ（Torelup／Toreloop）高密度除塵刷：柔韌尼龍／聚酯刷毛吸附灰塵，動作輕、無吸塵器噪音；掃完將拖把插入專用盒，盒內清潔海綿刮下塵屑落於盒底，免水洗、免換紙，可反覆使用。系列含手持（ハンディ）、伸縮、階梯用、地面／木地板用等型號。",
+      "source": {
+        "type": "promo",
+        "note": "使用者分享之繁體中文宣傳文案；規格與變體以 LEC 官方線上商店為準",
+        "brand": "LEC（レック）",
+        "product": "激落ちくん トレループ"
+      },
+      "facts": {
+        "brand": "LEC（レック）／激落ちくん",
+        "nameJa": "トレループ（Toreloop／Torelup）",
+        "nameZh": "高密度除塵刷／除塵拖把",
+        "feature": "高密度刷毛貼合凹凸面除塵；專用盒內建清潔海綿，拔插即可自清；可反覆使用、不需換紙；拖把與清潔海綿皆不可水洗",
+        "quiet": "輕掃除塵、無吸塵器噪音（宣傳／使用體驗取向）",
+        "variants": "ハンディ（手持）、ハンディ伸縮（伸縮）、階段用（階梯）、フローリング用（地面／木地板）；另有 Premium 系列",
+        "handy": "品番 S00648／JAN 4903320047952；約 W65×50×335 mm；柄／盒＝PP，刷＝尼龍・聚酯，清潔海綿＝發泡 EVA・聚酯；官網標價約 ¥1,190（税込，實際以通路為準）",
+        "extendable": "品番 S01340／JAN 4903320166165；伸縮＋旋轉頭，適高處／隙縫",
+        "stairs": "品番 S01339／JAN 4903320166158；短柄棒狀頭，適階梯轉角",
+        "floor": "品番 S01338／JAN 4903320166141；360° 全面拖把，適寬闊地面與隙縫",
+        "origin": "中國製造（官網標示）",
+        "site": "https://www.lec-online.com/c/04cleaning/4903320047952"
+      },
+      "refs": [
+        {
+          "title": "LEC 公式オンラインショップ — トレループ ハンディ",
+          "url": "https://www.lec-online.com/c/04cleaning/4903320047952"
+        },
+        {
+          "title": "LEC 公式 — トレループ フローリング用（地面）",
+          "url": "https://www.lec-online.com/c/04cleaning/4903320166141"
+        },
+        {
+          "title": "LEC 公式 — トレループ 階段用（階梯）",
+          "url": "https://www.lec-online.com/c/04cleaning/cleaning_other/4903320166158"
+        },
+        {
+          "title": "LEC 公式 — トレループ ハンディ伸縮",
+          "url": "https://www.lec-online.com/c/04cleaning/4903320166165"
+        }
+      ],
+      "tags": [
+        "購物",
+        "日本",
+        "清潔",
+        "LEC",
+        "激落ちくん",
+        "除塵",
+        "居家"
+      ]
+    },
     {
       "id": "20260927-ikea-kortlinje",
       "createdAt": "2026-09-27T11:28:00-07:00",
