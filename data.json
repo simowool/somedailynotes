@@ -1,6 +1,58 @@
 {
-  "updatedAt": "2026-09-26T23:08:00-07:00",
+  "updatedAt": "2026-09-27T11:28:00-07:00",
   "entries": [
+    {
+      "id": "20260927-ikea-kortlinje",
+      "createdAt": "2026-09-27T11:28:00-07:00",
+      "category": "購物",
+      "year": "2026",
+      "month": "9月",
+      "country": "台灣",
+      "classification": {
+        "category": "購物",
+        "country": "台灣"
+      },
+      "title": "IKEA KORTLINJE — 紅色鬧鐘附溫濕度計（18×6×7 公分）",
+      "summary": "IKEA 台灣線上標價 NT$899 的 KORTLINJE 紅色鬧鐘附溫濕度計（產品編號 206.204.62）：像素風顯示、雙組鬧鐘與 9 分鐘貪睡，內建溫濕度；USB-C 供電（線材隨附），尺寸約長 18／高 6／深 6.5 公分，材質為 ABS（至少 50% 再生）與聚碳酸酯鐘面。",
+      "source": {
+        "type": "website",
+        "url": "https://www.ikea.com.tw/en/products/wall-decoration/clocks/kortlinje-art-20620462",
+        "note": "使用者分享之 IKEA 台灣產品頁；價格與規格以頁面 meta／產品資料為準（查證時線上標價 NT$899）"
+      },
+      "facts": {
+        "brand": "IKEA",
+        "series": "KORTLINJE",
+        "nameZh": "鬧鐘附溫濕度計",
+        "color": "紅色",
+        "articleNo": "206.204.62",
+        "price": "NT$899（IKEA 台灣官網查證時標價；實際以分店／通路為準）",
+        "size": "約 18×6×7 公分（長度 18／高度 6／深度 6.5 公分）",
+        "materials": "鐘框／底部／外殼按鈕：ABS 塑膠（至少 50% 再生材料）；鐘面：聚碳酸酯塑膠",
+        "designer": "Su Liu",
+        "power": "USB-C 充電線隨附；可另用 2 枚 AAA／4 號電池作斷電備援（無法單獨供電）",
+        "functions": "時間（12／24 小時）、雙組鬧鐘、9 分鐘貪睡、溫濕度顯示、亮度三檔／可關、像素風點矩陣顯示",
+        "siteZh": "https://www.ikea.com.tw/zh/products/wall-decoration/clocks/kortlinje-art-20620462",
+        "siteEn": "https://www.ikea.com.tw/en/products/wall-decoration/clocks/kortlinje-art-20620462"
+      },
+      "refs": [
+        {
+          "title": "IKEA 台灣 — KORTLINJE 鬧鐘附溫濕度計（中文）",
+          "url": "https://www.ikea.com.tw/zh/products/wall-decoration/clocks/kortlinje-art-20620462"
+        },
+        {
+          "title": "IKEA Taiwan — KORTLINJE alarm clock with hygro-/thermometer（English）",
+          "url": "https://www.ikea.com.tw/en/products/wall-decoration/clocks/kortlinje-art-20620462"
+        }
+      ],
+      "tags": [
+        "購物",
+        "台灣",
+        "IKEA",
+        "時鐘",
+        "鬧鐘",
+        "居家"
+      ]
+    },
     {
       "id": "20260926-chenyuanho",
       "createdAt": "2026-09-26T23:08:00-07:00",
