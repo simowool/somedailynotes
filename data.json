@@ -1,6 +1,56 @@
 {
-  "updatedAt": "2026-10-01T01:35:19-07:00",
+  "updatedAt": "2026-10-01T02:38:52-07:00",
   "entries": [
+    {
+      "id": "20261001-tusk",
+      "createdAt": "2026-10-01T02:38:52-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "10月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "Tusk — 原生、鍵盤優先的跨平台資料庫用戶端（Rust／GPUI）",
+      "summary": "alpcanaydin/tusk：以 Rust 與 Zed 的 GPUI 打造的原生資料庫用戶端（macOS／Windows／Linux），非 Electron。主打虛擬化 GPU 表格、命令面板與快捷鍵，支援 PostgreSQL、MySQL、SQLite、SQL Server、Oracle、ClickHouse、Snowflake、BigQuery、Redis、MongoDB 等約 20 種引擎；內建 AI 助手只讀結構並寫入查詢供你審核執行，不自行跑 SQL。憑證存系統鑰匙圈，無帳號、無遙測；MIT 授權。",
+      "source": {
+        "type": "note",
+        "note": "依 GitHub alpcanaydin/tusk README 公開說明整理；平台需求與發行包以 Releases 為準",
+        "url": "https://github.com/alpcanaydin/tusk"
+      },
+      "facts": {
+        "what": "原生、鍵盤驅動的跨平台資料庫用戶端；README 自稱「The gentle giant for your databases」",
+        "stack": "Rust（2024 edition）＋ GPUI（Zed 同款 GPU UI 框架）；非 Electron／無 web view",
+        "engines": "PostgreSQL、Redshift、CockroachDB、Greenplum、Vertica、MySQL、MariaDB、SQLite、DuckDB、LibSQL、Cloudflare D1、SQL Server、Oracle、ClickHouse、Snowflake、BigQuery、Redis、MongoDB、Cassandra、DynamoDB 等",
+        "platforms": "macOS 14+（Apple Silicon）、Windows 10/11（x64／ARM64）、Linux x86_64（Wayland；可 Xwayland）",
+        "ux": "命令面板（⌘⇧P）、虛擬化可編輯資料格、SQL 編輯器（語言伺服器／補全）、SSH 隧道、自 TablePlus／Docker Compose／連線 URL 匯入",
+        "ai": "透過 Agent Client Protocol 接 Claude／Codex／Gemini CLI 等；讀 schema 寫查詢到新分頁，不讓 agent 自行執行 SQL；本機 MCP",
+        "privacy": "密碼存 macOS Keychain／Windows Credential Manager／Linux Secret Service；無帳號、無遙測",
+        "license": "MIT",
+        "install": "GitHub Releases；macOS 亦可用 brew install alpcanaydin/tusk/tusk"
+      },
+      "refs": [
+        {
+          "title": "alpcanaydin/tusk（GitHub）",
+          "url": "https://github.com/alpcanaydin/tusk"
+        },
+        {
+          "title": "Releases",
+          "url": "https://github.com/alpcanaydin/tusk/releases/latest"
+        }
+      ],
+      "tags": [
+        "工具",
+        "開源",
+        "GitHub",
+        "Tusk",
+        "資料庫",
+        "Rust",
+        "GPUI",
+        "SQL",
+        "macOS",
+        "跨平台"
+      ]
+    },
     {
       "id": "20261001-grokbot-hked",
       "createdAt": "2026-10-01T01:35:19-07:00",
