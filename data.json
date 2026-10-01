@@ -1,6 +1,65 @@
 {
-  "updatedAt": "2026-09-27T15:49:14-07:00",
+  "updatedAt": "2026-10-01T01:35:19-07:00",
   "entries": [
+    {
+      "id": "20261001-grokbot-hked",
+      "createdAt": "2026-10-01T01:35:19-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "10月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "Grok Bot 教學（香港老師版）— 可長期保留的 AI 隊友上手指南",
+      "summary": "grokbot.hked.ai 為面向香港老師的 Grok Bot 教學頁：說明具名 Bot／雲端電腦與普通 AI chat 的差異、五步上手、以 AI Manager 組隊，並整理 Cursor／SuperGrok／X Premium+ 三條訂閱入口與常見誤會（資料日期約 2026-09-27）。",
+      "source": {
+        "type": "website",
+        "site": "Grok Bot 教學｜香港老師版",
+        "url": "https://grokbot.hked.ai/",
+        "title": "Grok Bot 教學｜香港老師版",
+        "note": "依公開教學頁整理（標示資料日期 2026-09-27）；訂閱價錢與連結規則以 Cursor／xAI／X 官方結帳頁及幫助文件為準"
+      },
+      "facts": {
+        "what": "面向香港老師的 Grok Bot（可長期保留之具名 AI 隊友／agent）教學與訂閱說明頁",
+        "product": "Grok Bot：每隻 Bot 有名稱、職責、持續記憶與獨立雲端電腦（瀏覽器、檔案系統、終端機），可跨應用完成多步驟工作",
+        "platforms": "桌面（macOS、Windows、Linux）及 iOS；以 Cursor 帳戶登入（無獨立 Grok Bot 登入）",
+        "vsChat": "對照普通 AI chat：長期具名 Bot、雲端執行、連接器／電腦操作、可收成 skill／routine",
+        "onboarding": "五步：安裝 app → Cursor 帳戶登入 → 開第一隻 Bot（名稱／職責）→ 交任務並訂完成標準 → 需登入時交還使用者自行登入",
+        "team": "可多隻專責 Bot，由 AI Manager 統籌；頁面提供公開 Bot 範本匯入副本（不附私人 token）",
+        "subscriptions": "三條入口：Cursor 付費（Pro 起已含 Bot）、SuperGrok（$30 起可連結；Lite／Team／Enterprise 不可）、X Premium+（可連結）；額度不疊加，連結永久綁定",
+        "safety": "只授權必要範圍；勿把 API key／密碼貼上 chat；2FA／captcha 等會交還使用者",
+        "dataDate": "頁面標示資料日期約 2026-09-27；內容撮述官方公開文件",
+        "site": "https://grokbot.hked.ai/"
+      },
+      "refs": [
+        {
+          "title": "Grok Bot 教學｜香港老師版",
+          "url": "https://grokbot.hked.ai/"
+        },
+        {
+          "title": "Cursor Docs — Grok Bot",
+          "url": "https://cursor.com/docs/grok-bot"
+        },
+        {
+          "title": "Cursor Help — Grok Bot plans",
+          "url": "https://cursor.com/help/grok-bot/plans"
+        },
+        {
+          "title": "xAI — Introducing Grok Bot",
+          "url": "https://x.ai/news/introducing-grok-bot"
+        }
+      ],
+      "tags": [
+        "工具",
+        "Grok Bot",
+        "AI Agent",
+        "Cursor",
+        "xAI",
+        "SuperGrok",
+        "教學",
+        "教育"
+      ]
+    },
     {
       "id": "20260927-hahalend",
       "createdAt": "2026-09-27T15:49:14-07:00",
