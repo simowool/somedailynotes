@@ -1,6 +1,77 @@
 {
-  "updatedAt": "2026-10-01T02:38:52-07:00",
+  "updatedAt": "2026-10-02T01:56:19-07:00",
   "entries": [
+    {
+      "id": "20261002-maestrooth-grok-bot-prompts",
+      "createdAt": "2026-10-02T01:56:19-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "10月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "Top 10 Grok Bot Prompts That Replace an Entire Team — @maestrooth 十則可複製角色提示",
+      "summary": "X 文章（@maestrooth，2026-09-30）整理十則 Grok Bot「可複製」工作角色提示：SDR、客服、招募、行銷、分析、專案經理、法務作業、財務對帳、研究員、幕僚長。核心主張是「取代團隊」＝產出草稿／排序／diff／簡報後停住，不送出、不合併、不付款；並強調隔離以帳號為單位、應把工作交給有雲端電腦的 Bot 去做。另附五條全域安全指令與專用信箱／repo／卡片等前置設定提醒。",
+      "source": {
+        "type": "x_article",
+        "url": "https://x.com/maestrooth/status/2105288063391875450",
+        "articleUrl": "https://x.com/i/article/2105284755801399296",
+        "author": "@maestrooth",
+        "title": "Top 10 Grok Bot Prompts That Replace an Entire Team",
+        "note": "依 fxtwitter 公開 API 取得之文章正文與內嵌 markdown 提示整理；貼文本身為文章連結。原文約 2026-09-30 UTC；本條紀錄於 2026-10-02 PT。"
+      },
+      "facts": {
+        "what": "一套面向 Grok Bot（自有雲端機器／瀏覽器／排程）的十則角色提示＋共用安全底線，主張夜間排程後醒來收草稿而非空佇列",
+        "boundary": "「取代團隊」在此指工作停在人會開始動手的那一刻：草稿、排序清單、diff、簡報；文中明示下方內容不送出、不發文、不合併、不付款",
+        "setupFacts": "隔離是帳號級而非 Bot 級（一隻 Bot 存的密鑰其他 Bot 可見）→ 專用信箱／repo／卡片，勿接個人帳戶；應交給電腦做的事（讀頁、填表、跑腳本、排程盯佇列），純「想一想」只是聊天卻仍付機器成本",
+        "roles": [
+          "1. The SDR：平日 07:00 掃 prospect 清單；開公司站與 X、記 30 日內變化、評適合度、寫四句 first-touch（點名具體發現、無空洞形容）；草稿＋證據連結寫回表；永不寄出；結尾列處理／略過列與最想先寄的三列",
+          "2. The support rep：每小時依年齡拉工單；只在指定文件中找答案並引用段落、用品牌語氣寫回覆；找不到則標 needs a person；回覆只放內部 note、不改工單狀態；結尾列已答／升級與缺哪頁文件（等於文件審計）",
+          "3. The recruiter：監看新履歷；抽出年資／相關專案／可打開的產出；依門檻逐條 yes／no；通過者草擬篩選面談邀請（日曆三時段），未過者草擬兩行點名缺口的婉拒；兩者皆放 to review、不寄出",
+          "4. The marketer：每週比對自家定位頁與競品；產出主張對照表、對方有我方無／我方獨有各三點、改寫前兩段；對定位頁開 PR 僅改文案、不合併",
+          "5. The analyst：每週一僅用數字回答四題（相對上週變動＞10%、最大單一成本項占比、為無人使用之物付費處、最怕錯的數字與如何證偽）；展示計算；缺欄位就說缺、不估；無數字支撐則不給建議",
+          "6. The project manager：每日讀看板做 attention list：blocked／drifting／ready 三區；每項一行如何解阻；決策項寫兩選項與你會選哪個（一句理由）；不移動卡片、不留言",
+          "7. The legal ops assistant：合約進匣後五句摘要、對範本逐條比對偏差並並排引用、以註解（非改正文）草擬 redline、為律師準備三個值得花時間的問題；不接受／簽署／外寄；合約不存指定範圍外",
+          "8. The finance clerk：每日發票對採購單；抽出金額／幣別／日期／PO／供應商；＞2% 差異或本季新供應商則標記；結果寫回並連發票；永不核准／付款／寄信給供應商",
+          "9. The researcher：可發表的 brief；每源必開、每主張保留原文、標 supported／contradicted／not established；來源衝突並引且標較新者；列找不到的缺口且禁止用看似合理的句子填洞；輸出 brief＋來源表＋gaps",
+          "10. The chief of staff：每日 18:00 讀當日、備明日：五句今日進度、明日若不碰會出事的三件事、欠人的兩則回覆草稿（本人語氣）、建議取消的一件事與理由；一頁內、草稿放 to review；不寄出／不婉拒／不改期；結尾只列明日唯一人能做的決策"
+        ],
+        "safetyFive": [
+          "永不送出、發文、合併、付款或刪除；只草稿並停下",
+          "不論把握多高，不可逆動作前先問",
+          "只用專用信箱、repo、卡片；永不碰個人帳戶",
+          "永不列印、記錄或貼上金鑰（即使寫進自己建的檔案）",
+          "每次結束回報：做了什麼、略過什麼、失敗什麼"
+        ],
+        "beforeRun": "給 Bot 專用帳戶；排程先用可審計節奏（如每日早上七點優於每十五分鐘）；前三次執行逐行讀並改提示中的 placeholder",
+        "substack": "作者另推 Substack：https://zodchiii.substack.com/",
+        "postMetricsNote": "查證時（fxtwitter）貼文約 6 轉發、63 讚、196 書籤、約 9.3 萬瀏覽（非本站持續追蹤）"
+      },
+      "refs": [
+        {
+          "label": "X 貼文／文章",
+          "url": "https://x.com/maestrooth/status/2105288063391875450"
+        },
+        {
+          "label": "X Article",
+          "url": "https://x.com/i/article/2105284755801399296"
+        },
+        {
+          "label": "作者 Substack",
+          "url": "https://zodchiii.substack.com/"
+        }
+      ],
+      "tags": [
+        "工具",
+        "Grok Bot",
+        "AI Agent",
+        "提示詞",
+        "Prompt",
+        "自動化",
+        "xAI",
+        "maestrooth"
+      ]
+    },
     {
       "id": "20261001-tusk",
       "createdAt": "2026-10-01T02:38:52-07:00",
