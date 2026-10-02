@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-10-02T01:56:19-07:00",
+  "updatedAt": "2026-10-02T12:09:52-07:00",
   "entries": [
+    {
+      "id": "20261002-openmontage",
+      "createdAt": "2026-10-02T12:09:52-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "10月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "OpenMontage Studio — AI Agent 驅動的創意工作區（影片／圖像／音訊／動畫／3D）",
+      "summary": "OpenMontage Studio（openmontage.video）是以 AI Agent 驅動的創意工作區：從想法或既有素材出發，可導演完整製作或只做單一任務，涵蓋影片、圖像、音訊、動畫與 3D。管線含 Brief→Research→Script→Scene Plan→The Gate（先審整體計畫再產出）→Narration→Music→Compose→Render；本機合成／渲染、無浮水印，並附資產出處報告。可在桌面工作區使用，或以 OpenMontage plugin／MCP 接 Claude Code、ChatGPT Codex、OpenCode；引擎開源、專案格式公開，自備推理與媒體供應商帳號。官網標示私有 alpha，beta 即將釋出。",
+      "source": {
+        "type": "website",
+        "url": "https://openmontage.video/",
+        "title": "OpenMontage Studio — your creative workspace, powered by AI agents",
+        "note": "依官網 https://openmontage.video/ 公開說明整理（2026-10-02 PT）；私有 alpha／beta 時程以官網為準。"
+      },
+      "facts": {
+        "what": "AI Agent 驅動的創意工作區：導演影片／圖像／音訊／動畫／3D 製作，可做完整生產線或單一任務",
+        "product": "OpenMontage Studio（桌面創意工作區）＋ 可外掛既有編碼 Agent 的同一套創意工具",
+        "pipeline": "BRIEF → RESEARCH → SCRIPT → SCENE PLAN → THE GATE（先看完整製作計畫再核准產出）→ NARRATION → MUSIC → COMPOSE → RENDER",
+        "gate": "在生成素材前展示分鏡／旁白／音樂／模型綁定等計畫，可 Approve 或 Revise",
+        "agentHarness": "OpenMontage Studio、Claude Code（openmontage plugin／MCP）、ChatGPT Codex、OpenCode",
+        "localFirst": "素材不離本機；合成與渲染在本機完成；無浮水印；每資產附 provenance（來源／授權／模型）",
+        "formats": "輸出 16:9、1:1、9:16（含字幕與多語等官網所述能力）",
+        "openness": "引擎開源且公開；專案格式已發布，製作成果為可帶走的普通檔案；自備 provider 帳號與 keys",
+        "status": "官網標示 Coming soon in private alpha · Beta releasing soon（以官網為準）",
+        "useCasesShown": "官網示例類型含 Film Trailer、Business News、Documentary、Animation、Tech Explainer、Finance Explainer、Sports Recap、Product Ad"
+      },
+      "refs": [
+        {
+          "title": "OpenMontage Studio（官網）",
+          "url": "https://openmontage.video/"
+        }
+      ],
+      "tags": [
+        "工具",
+        "OpenMontage",
+        "AI Agent",
+        "影片",
+        "影片製作",
+        "開源",
+        "Claude Code",
+        "Codex",
+        "桌面應用",
+        "創意工作區"
+      ]
+    },
     {
       "id": "20261002-maestrooth-grok-bot-prompts",
       "createdAt": "2026-10-02T01:56:19-07:00",
