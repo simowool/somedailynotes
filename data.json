@@ -1,6 +1,62 @@
 {
-  "updatedAt": "2026-10-02T12:09:52-07:00",
+  "updatedAt": "2026-10-02T23:48:33-07:00",
   "entries": [
+    {
+      "id": "20261002-strix",
+      "createdAt": "2026-10-02T23:48:33-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "10月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "Strix — 開源 AI 滲透測試工具（自主代理人找漏洞並驗證）",
+      "summary": "Strix（github.com/usestrix/strix）是開源 AI 滲透測試工具：自主代理人動態跑目標、找出漏洞，並以實際驗證降低靜態掃描常見的誤報；給開發者與資安團隊做應用安全測試、較快的滲透測試，以及在 CI/CD 於上線前擋下問題。開源版可本機搭配 Docker 與自備 LLM 金鑰；另有免設定的 Strix Cloud，以及含 SSO、合規報告、VPC 或自架的企業版。也可把技能裝進 Claude Code、Cursor、Codex 等編碼代理人。專案明示僅限對自己擁有或已獲明確書面授權的系統使用。",
+      "source": {
+        "type": "github",
+        "url": "https://github.com/usestrix/strix",
+        "title": "Strix — The open-source AI pentesting tool",
+        "note": "依公開 README（main）整理，2026-10-02 PT。僅記產品定位與能力名稱，不含操作步驟。授權範圍與合法性以專案警告為準。"
+      },
+      "facts": {
+        "what": "開源 AI 滲透測試代理人：動態測試、發現漏洞並加以驗證，附修復方向與報告",
+        "repo": "https://github.com/usestrix/strix",
+        "site": "https://strix.ai",
+        "docs": "https://docs.strix.ai",
+        "cloud": "https://app.strix.ai",
+        "editions": "開源本機（Docker＋自備 LLM 金鑰）、Strix Cloud（免本機 Docker／金鑰的代管掃描與一鍵修補）、Enterprise（SSO、合規報告、VPC 或自架、BYOK）",
+        "capabilities": "多代理人協作、開發者向 CLI、自動修補與報告、本機結果檢視器（strix view，預設只綁本機）、GitHub Actions／CI 整合、可接自有 MCP、可用 ChatGPT 訂閱或各家 LLM",
+        "targetsNamed": "README 所述對象含本機程式碼、GitHub 倉庫、網站與 API 契約（OpenAPI／Swagger／Postman）；細節見官方文件",
+        "agentSkills": "npx skills add usestrix/strix，供相容 SKILL.md 的編碼代理人呼叫同一引擎（本機 CLI 或雲端）",
+        "stackNoted": "README 致謝 LiteLLM、Caido、Nuclei、Playwright、Bubble Tea",
+        "authorizedUseOnly": "專案警告：只可對自己擁有或已有明確書面許可的系統、且在約定範圍內測試；未授權測試在多數司法管轄區違法，使用者自負授權與法律責任"
+      },
+      "refs": [
+        {
+          "title": "usestrix/strix（GitHub）",
+          "url": "https://github.com/usestrix/strix"
+        },
+        {
+          "title": "Strix 文件",
+          "url": "https://docs.strix.ai"
+        },
+        {
+          "title": "Strix Cloud",
+          "url": "https://app.strix.ai"
+        }
+      ],
+      "tags": [
+        "工具",
+        "Strix",
+        "AI Agent",
+        "資安",
+        "滲透測試",
+        "開源",
+        "CLI",
+        "CI/CD",
+        "DevSecOps"
+      ]
+    },
     {
       "id": "20261002-openmontage",
       "createdAt": "2026-10-02T12:09:52-07:00",
