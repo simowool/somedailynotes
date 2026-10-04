@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-10-03T22:22:00-07:00",
+  "updatedAt": "2026-10-03T23:18:00-07:00",
   "entries": [
+    {
+      "id": "20261003-claude-skills-llm-council",
+      "createdAt": "2026-10-03T23:18:00-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "10月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "LLM Council — Claude 技能：五位顧問獨立分析、匿名互評，再由主席給出裁決",
+      "summary": "LLM Council（aiwithremy/claude-skills-llm-council）是給 Claude Code 與 Claude Cowork 的技能：把一個有代價的決策丟給五種思考角度（唱反調、第一性原理、擴張、局外人、執行者），各自獨立作答後匿名互評，再由主席綜合「哪裡一致、哪裡衝突、互評抓到的盲點、明確建議、先做的一件事」。方法改自 Andrej Karpathy 的 LLM Council，但在 Claude 裡用不同思考透鏡的子代理人，而不是不同模型。作者 Ole Lehmann。適合定價、定位、轉型這類不確定且代價高的判斷；查事實、寫文案、摘要不適合。2026-10-03 PT 查 GitHub 約 2,348 stars、204 forks。",
+      "source": {
+        "type": "github",
+        "url": "https://github.com/aiwithremy/claude-skills-llm-council",
+        "title": "LLM Council — a Claude Code skill that runs your decisions through 5 AI advisors with peer review",
+        "note": "依公開 README 與 SKILL.md（main）及 GitHub API 整理，2026-10-03 PT。只記定位、顧問角色與流程名稱，不含安裝或提示詞模板。"
+      },
+      "facts": {
+        "what": "Claude 技能（SKILL.md，技能名 llm-council）：用五位思考風格不同的顧問壓力測試決策，匿名同儕互評後由主席給出可執行裁決",
+        "repo": "https://github.com/aiwithremy/claude-skills-llm-council",
+        "author": "Ole Lehmann（https://x.com/itsolelehmann）；倉庫帳號 aiwithremy",
+        "basedOn": "Andrej Karpathy 的 LLM Council（https://github.com/karpathy/llm-council）：多路作答、匿名互評、主席綜述。本技能改在單一 Claude 內用子代理人的不同思考透鏡，而非不同模型",
+        "platforms": "Claude Code 與 Claude Cowork（claude.ai）",
+        "advisors": "1. Contrarian 唱反調：找致命缺陷與被避開的問題。2. First Principles 第一性原理：拆假設、問真正要解的問題。3. Expansionist 擴張：找被低估的上行與鄰近機會。4. Outsider 局外人：零脈絡、只看眼前材料，抓知識詛咒。5. Executor 執行者：能不能做、週一早上的第一步。三組張力：唱反調對擴張、第一性原理對執行者，局外人居中",
+        "flow": "框定問題（可掃工作區脈絡，不先下判斷）→ 五位顧問平行、各自站穩角度 → 匿名成 A–E 後互評（最強、最大盲點、全員都漏了什麼）→ 主席綜述：一致處、衝突處、互評才出現的盲點、明確建議（可以不同意多數）、先做的一件事 → 在對話以 Markdown 呈現。使用者要求或值得回看時才另存 transcript",
+        "triggers": "council this、run the council、war room this、pressure-test this、stress-test this、debate this；搭配真正取捨時的 should I X or Y、which option、I can't decide 等",
+        "whenNot": "單一正確答案的查詢、創作（例如寫一則貼文）、摘要等處理工作，以及沒有實質取捨的隨口 should I",
+        "installNoted": "README 提供兩種不開終端機的路徑：請 Claude 從該 repo 安裝 SKILL.md，或自行下載 SKILL.md 再請 Claude 放好。細節以 repo 為準",
+        "statsNote": "2026-10-03 PT 以 GitHub API 查得約 2,348 stars、204 forks；建立於 2026-04-25 UTC。API 未列 SPDX 授權，使用前請自行看 repo"
+      },
+      "refs": [
+        {
+          "title": "aiwithremy/claude-skills-llm-council（GitHub）",
+          "url": "https://github.com/aiwithremy/claude-skills-llm-council"
+        },
+        {
+          "title": "Karpathy LLM Council",
+          "url": "https://github.com/karpathy/llm-council"
+        },
+        {
+          "title": "Ole Lehmann（X）",
+          "url": "https://x.com/itsolelehmann"
+        }
+      ],
+      "tags": [
+        "工具",
+        "LLM Council",
+        "Claude",
+        "Claude Code",
+        "Claude Skill",
+        "AI Agent",
+        "決策",
+        "Karpathy"
+      ]
+    },
     {
       "id": "20261003-scfabric-diy",
       "createdAt": "2026-10-03T22:22:00-07:00",
