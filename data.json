@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-10-03T23:18:00-07:00",
+  "updatedAt": "2026-10-05T12:56:00-07:00",
   "entries": [
+    {
+      "id": "20261005-pdftoolkitdev",
+      "createdAt": "2026-10-05T12:56:00-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "10月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "PDF Toolkit — 本機離線 PDF 全能助手（合併／壓縮／加密／簽名／浮水印）",
+      "summary": "PDF Toolkit（pdftoolkitdev.app）是面向 Mac 與 Windows 的本機 PDF 工具：合併分割與頁面重排、四檔壓縮、轉 JPG／PNG、抽取內嵌圖片、256-bit AES 加密、手寫／文字／圖片簽名、頁碼與文字／圖片浮水印（含去背）。官網強調 100% 本機離線處理、不上傳雲端、零遙測；已上架 Mac App Store 與 Microsoft Store。版權標示 © 2026 Kwok Po Lee。",
+      "source": {
+        "type": "website",
+        "url": "https://www.pdftoolkitdev.app",
+        "title": "PDF Toolkit — 極簡、高效本地端 PDF 全能助手",
+        "note": "依官網 https://www.pdftoolkitdev.app 公開說明整理（繁中頁，2026-10-05 PT）。功能以官網列出的能力名稱為準；定價與商店版本以 App Store／Microsoft Store 為準。"
+      },
+      "facts": {
+        "what": "本機離線 PDF 全能助手：組織頁面、壓縮、轉檔、抽圖、加密、簽名、頁碼與浮水印，全部在本機完成",
+        "product": "PDF Toolkit（桌面 App）",
+        "platforms": "macOS（Mac App Store）、Windows（Microsoft Store）",
+        "privacy": "100% 本地端處理、可完全離線；官網稱零遙測與零分析追蹤，不上傳文件／密碼／使用習慣",
+        "features": "拖放合併／分割與視覺化頁面重排；四檔壓縮（輕度／建議／高度／極限）；PDF→JPG／PNG；一鍵抽取內嵌圖片；256-bit AES 開啟密碼；手寫／文字／圖片簽名（可上傳自訂字體）；頁碼範圍與樣式；文字／圖片浮水印（圖片可去背）",
+        "authorNoted": "官網頁尾 © 2026 Kwok Po Lee；支援信箱 bitdect@gmail.com",
+        "site": "https://www.pdftoolkitdev.app"
+      },
+      "refs": [
+        {
+          "title": "PDF Toolkit（官網）",
+          "url": "https://www.pdftoolkitdev.app"
+        }
+      ],
+      "tags": [
+        "工具",
+        "PDF Toolkit",
+        "PDF",
+        "本機",
+        "離線",
+        "隱私",
+        "macOS",
+        "Windows",
+        "桌面應用"
+      ]
+    },
+    {
+      "id": "20261005-rclone-drive",
+      "createdAt": "2026-10-05T12:56:00-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "10月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "Rclone Drive — 輕量 GUI：虛擬掛載雲端硬碟與同步排程（RaiDrive 替代）",
+      "summary": "Rclone Drive（alan0830/rclone-drive）是 Windows 上的輕量全功能 Rclone 圖形工具：把 Google Drive、OneDrive、Dropbox、WebDAV、SFTP、S3 等掛成本機磁碟代號，並支援差異比對、鏡像同步／增量備份與背景排程；可系統匣常駐、開機自啟，並一鍵開 Rclone 原生 Web-GUI。技術棧 Tauri v2＋Vue 3＋Rust，單一執行檔約 4.5 MB；需 WinFsp 與 Rclone。MIT 開源。2026-10-05 PT 查 GitHub 約 11 stars、1 fork。",
+      "source": {
+        "type": "github",
+        "url": "https://github.com/alan0830/rclone-drive",
+        "title": "Rclone Drive & Sync — 輕量、現代化的全功能 Rclone 雲端硬碟虛擬掛載與同步排程工具（RaiDrive 替代方案）",
+        "note": "依公開 README（main）及 GitHub API 整理，2026-10-05 PT。只記產品定位與能力名稱，不含安裝步驟。"
+      },
+      "facts": {
+        "what": "Windows 圖形化 Rclone 工具：雲端虛擬磁碟掛載、同步與定時備份（定位為 RaiDrive 替代）",
+        "repo": "https://github.com/alan0830/rclone-drive",
+        "author": "alan0830",
+        "platforms": "Windows 10／11（64-bit）",
+        "depends": "WinFsp（掛載磁碟必備）、Rclone（可自訂 rclone.exe 路徑）",
+        "mount": "網路磁碟模式（--network-mode）掛成本機磁碟代號；各雲端專屬圖示；VFS 快取 full／writes／minimal／off",
+        "cloudsNamed": "README 示例含 Google Drive、OneDrive、Dropbox、WebDAV、SFTP、S3；Google Drive／OneDrive 支援瀏覽器 OAuth",
+        "sync": "Check Diff 視覺化比對；Sync 單向鏡像、Copy 增量備份；多組背景排程（可系統匣常駐執行）",
+        "ux": "圖形精靈管理遠端、系統匣與開機自啟、內建啟動 Rclone Web-GUI",
+        "stack": "Tauri v2＋Vue 3＋Rust／WebView2；README 稱單一執行檔約 4.5 MB",
+        "distros": "NSIS 安裝版、Portable 便攜版、MSI；Releases 附 SHA-256／checksums.txt",
+        "license": "MIT",
+        "statsNote": "2026-10-05 PT 以 GitHub API 查得約 11 stars、1 fork；倉庫建立於 2026-10-02 UTC"
+      },
+      "refs": [
+        {
+          "title": "alan0830/rclone-drive（GitHub）",
+          "url": "https://github.com/alan0830/rclone-drive"
+        },
+        {
+          "title": "Rclone",
+          "url": "https://rclone.org/downloads/"
+        },
+        {
+          "title": "WinFsp",
+          "url": "https://winfsp.dev/"
+        }
+      ],
+      "tags": [
+        "工具",
+        "Rclone Drive",
+        "Rclone",
+        "雲端硬碟",
+        "虛擬掛載",
+        "同步",
+        "開源",
+        "Windows",
+        "Tauri",
+        "桌面應用"
+      ]
+    },
     {
       "id": "20261003-claude-skills-llm-council",
       "createdAt": "2026-10-03T23:18:00-07:00",
