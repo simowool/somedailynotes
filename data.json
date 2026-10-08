@@ -1,6 +1,67 @@
 {
-  "updatedAt": "2026-10-05T12:56:00-07:00",
+  "updatedAt": "2026-10-08T07:20:00-07:00",
   "entries": [
+    {
+      "id": "20261008-nvidia-skillspector",
+      "createdAt": "2026-10-08T07:20:00-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "10月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "NVIDIA SkillSpector — 安裝前先掃描 AI Agent Skills 的開源安全掃描器（0–100 風險分數）",
+      "summary": "SkillSpector（NVIDIA/SkillSpector）是 NVIDIA 開源（Apache-2.0）的 AI Agent 技能安全掃描器，給 Claude Code、Codex、MCP 等技能在安裝前檢查：可吃 Git repo、URL、ZIP、本機資料夾或單一 SKILL.md，輸出 0–100 風險分數、嚴重度、建議與逐條發現（終端機／JSON／Markdown／SARIF）。README 列出 17 類共 71 種模式，包括提示注入、資料外洩、權限提升、供應鏈、MCP 工具投毒等；預設跑靜態分析，可選加 LLM 語意比對，也能當 MCP 伺服器讓 Agent 在安裝前先呼叫。它也是 NVIDIA Verified Skills 流程的安全層。數據方面：「5.2% 有惡意意圖、超過四分之一有漏洞」已對照原始論文核實（26.1%／5.2%，31,132 個技能樣本），但這是 Liu 等人的學術研究，NVIDIA README 只是引用，不是 NVIDIA 自家研究。",
+      "source": {
+        "type": "github",
+        "url": "https://github.com/NVIDIA/SkillSpector",
+        "title": "NVIDIA/SkillSpector — Security scanner for AI agent skills",
+        "note": "由 Threads @AIharrylee 截圖得知；依公開 README（main）、NVIDIA 文件 docs.nvidia.com/skills/scanning-agent-skills 及 arXiv 2601.10338 摘要整理，2026-10-08 PT。只記產品定位與能力名稱，不含安裝步驟。貼文說可掃「整個 Skill Library」，官方文件未見此說法（README 範例皆為單一技能輸入），故未列入。貼文稱數據出自「NVIDIA 研究」，實際出自 Liu 等人論文，NVIDIA 僅引用。"
+      },
+      "facts": {
+        "what": "開源 AI Agent 技能安全掃描器：安裝前檢查技能是否含提示注入、資料外洩、危險程式碼、供應鏈與 MCP 風險",
+        "repo": "https://github.com/NVIDIA/SkillSpector",
+        "docs": "https://docs.nvidia.com/skills/scanning-agent-skills",
+        "maker": "NVIDIA",
+        "inputs": "Git repo、URL、ZIP、本機資料夾、單一 SKILL.md／檔案",
+        "output": "0–100 風險分數、嚴重度、安裝建議與逐條發現；格式含終端機、JSON、Markdown、SARIF 2.1.0",
+        "coverage": "README 列 17 類 71 種漏洞模式：提示注入、資料外洩、權限提升、供應鏈、過度代理、輸出處理、系統提示洩漏、記憶投毒、工具濫用、流氓 Agent、反拒絕、觸發濫用、危險程式碼（AST）、污點追蹤、YARA 簽章、MCP 最小權限、MCP 工具投毒（NVIDIA 文件頁寫 68 種，版本不同）",
+        "modes": "預設靜態分析（快速、可重現）；可選 LLM 語意分析，比對技能描述與實際行為",
+        "integrations": "可作為 MCP 伺服器供 Claude Code／Codex CLI／Gemini CLI 呼叫；另有 Pi、OpenCode 擴充",
+        "pipeline": "NVIDIA Verified Skills 流程的安全層（SkillEvaluator 第一層）",
+        "license": "Apache-2.0",
+        "statsVerified": "已核實：arXiv 2601.10338〈Agent Skills in the Wild〉（Liu 等，2026）收集 42,447 個技能、分析 31,132 個，26.1% 至少一項漏洞、5.2% 呈高嚴重度惡意意圖模式；含可執行腳本者有漏洞機率為 2.12 倍。作者來自 Quantstamp、天津大學、南洋理工、UNSW 等，非 NVIDIA；NVIDIA README 引用此數據",
+        "statsNote": "2026-10-08 PT 以 GitHub API 查得約 19.7k stars、1.7k forks；最新版 v2.12.0（2026-09-23 PT）"
+      },
+      "refs": [
+        {
+          "title": "NVIDIA/SkillSpector（GitHub）",
+          "url": "https://github.com/NVIDIA/SkillSpector"
+        },
+        {
+          "title": "Scan Agent Skills Before Installation（NVIDIA 文件）",
+          "url": "https://docs.nvidia.com/skills/scanning-agent-skills"
+        },
+        {
+          "title": "Agent Skills in the Wild（arXiv 2601.10338）",
+          "url": "https://arxiv.org/abs/2601.10338"
+        }
+      ],
+      "tags": [
+        "工具",
+        "NVIDIA",
+        "SkillSpector",
+        "AI Agent",
+        "Agent Skills",
+        "Claude Code",
+        "Codex",
+        "MCP",
+        "資安",
+        "提示注入",
+        "開源",
+        "CLI"
+      ]
+    },
     {
       "id": "20261005-pdftoolkitdev",
       "createdAt": "2026-10-05T12:56:00-07:00",
