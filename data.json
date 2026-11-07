@@ -1,6 +1,75 @@
 {
-  "updatedAt": "2026-10-08T07:20:00-07:00",
+  "updatedAt": "2026-11-07T14:05:00-07:00",
   "entries": [
+    {
+      "id": "20261107-sushi-itsumi-akasaka",
+      "createdAt": "2026-11-07T14:05:00-07:00",
+      "category": "餐廳",
+      "year": "2026",
+      "month": "11月",
+      "country": "日本",
+      "city": "東京",
+      "classification": {
+        "category": "餐廳",
+        "country": "日本",
+        "city": "東京",
+        "area": "赤坂"
+      },
+      "title": "鮨いつみ Sushi Itsumi - 赤坂見附地下一樓的江戸前壽司 Omakase",
+      "summary": "東京港區赤坂的江戸前壽司店，位於赤坂千切屋大樓 B1，是惠比壽「鮨 くりや川」的分店（食べログ介紹寫由本店習藝的職人掌握，價格不到本店一半）。晚餐為「江戸前壽司與小皿料理 Omakase」18 品 9,900 日圓（含稅），食べログ與 TableCheck 現行標價一致，與貼文截圖相同。地址港區赤坂 3-20-9，東京Metro赤坂見附站 10 號出口步行約 1 分鐘。午餐 12:00–14:30、晚餐 18:00–22:30，不定休；採預約制，可透過食べログ、TableCheck 或電話預約。",
+      "source": {
+        "type": "social_video_screenshot",
+        "url": "https://tabelog.com/tokyo/A1308/A130801/13238572",
+        "resolvedName": "鮨 いつみ",
+        "resolvedAddress": "東京都港区赤坂3-20-9 赤坂千切屋ビル B1F",
+        "note": "由社群影片入口招牌截圖得知（截圖文字：隱身在赤坂地下一階、夕食18品 9900円（税込））；依食べログ（コース頁更新日 2026/10/09）、TableCheck 與官網整理，2026-11-07 PT。"
+      },
+      "facts": {
+        "nameJa": "鮨 いつみ",
+        "nameEn": "Sushi Itsumi",
+        "address": "東京都港區赤坂 3-20-9 赤坂千切屋大樓 B1F（〒107-0052）",
+        "access": "東京Metro丸之內線／銀座線赤坂見附站 10 號出口步行約 1 分鐘；千代田線赤坂站約 6 分鐘；永田町站約 8 分鐘；溜池山王站約 9 分鐘",
+        "style": "江戸前壽司＋小皿料理的 Omakase 套餐；招牌包括鮪魚突先＋海膽握壽司、收尾的「壽司店 TKG」（蛋白霜生魚丼）",
+        "price": "晚餐 Omakase 18 品 9,000 日圓（未稅），含稅 9,900 日圓（食べログ／TableCheck 現行標價，與貼文所寫相同）；個室加收 2,000 日圓／組（最多 6 人）。午餐 Omakase 16 品 7,920 日圓、14 品 5,940 日圓（含稅）。無服務費",
+        "phone": "預約 050-5456-1968；店家 03-6230-9353",
+        "hoursNote": "午餐 12:00–14:30、晚餐 18:00–22:30，不定休（食べログ；請以店家為準）",
+        "reservation": "預約制：食べログ網路預約、TableCheck 或電話。用餐時間 2 小時（午餐 1.5 小時）；預約時間 5 分鐘前才能入店，週末與國定假日 13:30 午餐場因翻桌須等到 13:30 才能進場（入口告示同此）。取消費：當天／前一天 100%、前兩天 50%",
+        "seats": "20 席：吧檯 8 席、包廂 6 席（完全個室）、桌位 2 人＋4 人各 1",
+        "payment": "可刷卡（VISA、Master、JCB、AMEX、Diners）；不收電子錢包與 PayPay 等 QR 支付",
+        "note": "2019-09-01 開幕。Omakase 制，須於預約時申報過敏；素食者、不吃生魚者及酒精／大豆／小麥過敏者無法預約。學齡前兒童須使用包廂"
+      },
+      "refs": [
+        {
+          "title": "食べログ - 鮨 いつみ",
+          "url": "https://tabelog.com/tokyo/A1308/A130801/13238572"
+        },
+        {
+          "title": "食べログ - コース一覧",
+          "url": "https://tabelog.com/tokyo/A1308/A130801/13238572/party/"
+        },
+        {
+          "title": "TableCheck - Sushi Itsumi",
+          "url": "https://www.tablecheck.com/en/sushi-itsumi"
+        },
+        {
+          "title": "鮨 いつみ 官網",
+          "url": "https://www.sushi-itsumi.com/"
+        },
+        {
+          "title": "Instagram @sushi_itsumi",
+          "url": "https://www.instagram.com/sushi_itsumi"
+        }
+      ],
+      "tags": [
+        "餐廳",
+        "日本",
+        "東京",
+        "赤坂",
+        "壽司",
+        "Omakase",
+        "江戸前壽司"
+      ]
+    },
     {
       "id": "20261008-nvidia-skillspector",
       "createdAt": "2026-10-08T07:20:00-07:00",
