@@ -1,6 +1,68 @@
 {
-  "updatedAt": "2026-11-07T14:05:00-07:00",
+  "updatedAt": "2026-11-10T15:53:00-07:00",
   "entries": [
+    {
+      "id": "20261110-mole-mac",
+      "createdAt": "2026-11-10T15:53:00-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "11月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "Mole - 免費開源的 Mac 系統清理 CLI（CleanMyMac 替代方案）",
+      "summary": "Mole（tw93/Mole）是免費開源的 macOS 指令列清理與維護工具，把 CleanMyMac、AppCleaner、DaisyDisk、iStat Menus 這類工作流程集中在一個終端機指令。安裝後以 mo 開啟主選單，或直接跑 mo clean（深度清理快取、紀錄檔與殘留）、mo uninstall（移除 App 與啟動代理／偏好設定等殘留）、mo optimize（系統維護與最佳化）、mo analyze（互動式磁碟分析）、mo status（即時系統狀態）。官方要求 macOS 12 以上，支援 Intel 與 Apple Silicon；建議 brew install mole，也可用官方 install.sh。CLI 採 GPL-3.0。官網 mole.fit 另有獨立的原生 Mac App（一次買斷，非本倉庫授權）。2026-11-10 PT 以 GitHub API 查得 74,537 stars、2,680 forks。",
+      "source": {
+        "type": "website",
+        "url": "https://free.com.tw/mole-mac/",
+        "title": "Mole 教學：免費開源的 CleanMyMac 替代方案",
+        "note": "由免費資源網教學文得知（已去掉分享連結的 fbclid）；依該文、官方倉庫 tw93/Mole README（main）、mole.fit 文件與 GitHub API 整理，2026-11-10 PT。"
+      },
+      "facts": {
+        "what": "免費開源的 Mac 清理與維護 CLI：深度清理、徹底移除 App、系統最佳化、磁碟分析與即時狀態監控（定位為 CleanMyMac 等工具的替代）",
+        "repo": "https://github.com/tw93/Mole",
+        "site": "https://mole.fit",
+        "docs": "https://mole.fit/docs",
+        "author": "tw93",
+        "platforms": "官方 README 寫需 macOS 12 或更新，支援 Intel 與 Apple Silicon；另有獨立的 Windows／Linux CLI 分支",
+        "install": "brew install mole（只裝 CLI）；或官方腳本 curl -fsSL https://raw.githubusercontent.com/tw93/mole/main/install.sh | bash。Homebrew 若已不支援該 macOS 版本，改用腳本安裝",
+        "commands": "mo 開互動選單；主要子指令 mo clean、mo uninstall、mo optimize、mo analyze（亦接受 mo analyse）、mo status。CLI 另有 mo purge（專案建置產物）、mo installer（安裝包）、mo slim（在 Apple Silicon 上移除 Universal App 的 Intel 程式碼）、mo touchid、mo update、mo remove、mo completion。破壞性指令可用 --dry-run 預覽",
+        "features": "清理快取、紀錄檔與已卸載 App 殘留；移除 App 時一併處理 LaunchAgents、偏好設定與殘留；終端機 treemap 磁碟瀏覽；刷新 DNS／Quick Look 與最佳化系統資料庫等維護；即時顯示 CPU、記憶體、磁碟 I/O、網路與行程",
+        "macAppNote": "原生 Mac App 是獨立付費產品（官網文件寫一次授權 19 美元、免費更新、無訂閱；可用 brew install --cask mole-app 或自 mole.fit 下載 DMG），與本倉庫的 GPL-3.0 CLI 分開授權。brew install mole 只會安裝 CLI",
+        "distributionNote": "官方聲明只透過 Homebrew、本 GitHub 倉庫與 mole.fit 發行；molemac.com、moleapp.net、molefit.com 等並非官方",
+        "license": "CLI：GPL-3.0；Mole for Mac 為獨立專有軟體",
+        "statsNote": "2026-11-10 PT 以 GitHub API 查得 74,537 stars、2,680 forks；倉庫建立於 2025-09-23 UTC，語言標示為 Shell"
+      },
+      "refs": [
+        {
+          "title": "Mole 教學：免費開源的 CleanMyMac 替代方案（免費資源網）",
+          "url": "https://free.com.tw/mole-mac/"
+        },
+        {
+          "title": "tw93/Mole（GitHub）",
+          "url": "https://github.com/tw93/Mole"
+        },
+        {
+          "title": "Mole 官方網站",
+          "url": "https://mole.fit"
+        },
+        {
+          "title": "Mole Docs",
+          "url": "https://mole.fit/docs"
+        }
+      ],
+      "tags": [
+        "工具",
+        "Mole",
+        "Mac",
+        "macOS",
+        "開源",
+        "系統清理",
+        "CleanMyMac",
+        "Homebrew",
+        "CLI"
+      ]
+    },
     {
       "id": "20261107-sushi-itsumi-akasaka",
       "createdAt": "2026-11-07T14:05:00-07:00",
