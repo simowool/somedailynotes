@@ -1,6 +1,266 @@
 {
-  "updatedAt": "2026-11-10T15:53:00-07:00",
+  "updatedAt": "2026-11-13T17:40:04-07:00",
   "entries": [
+    {
+      "id": "20261113-mattpocock-skills",
+      "createdAt": "2026-11-13T17:40:04-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "11月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "mattpocock/skills - 給實作工程用的可組合 Agent Skills",
+      "summary": "mattpocock/skills（Skills For Real Engineers）是 Matt Pocock 從自己的 .agents 目錄整理出的一組可組合、可自行改寫的 Agent Skills，強調給實作工程使用，而不是把流程交給大型框架全權主導。安裝後需在每個倉庫跑一次 /setup-matt-pocock-skills，設定議題追蹤方式、分票標籤與文件存放位置。常用技能包括 /grill-me、/grill-with-docs（先對齊需求，並建立共用詞彙與 ADR）、/tdd（紅燈－綠燈－重構）與 /diagnosing-bugs。Claude Code 可用 claude plugin install mattpocock-skills@claude-plugins-official；Codex 與 GitHub Copilot 走各自的 plugin marketplace；Gemini CLI 與其他代理人可用 npx skills@latest add mattpocock/skills。授權為 MIT。站點為 aihero.dev/skills。2026-11-13 PT 以 GitHub API 查得 323,824 stars、27,176 forks。",
+      "source": {
+        "type": "screenshot_note",
+        "title": "AI 懶人報推薦的 Agent Skills 倉庫清單",
+        "note": "由 AI 懶人報（Instagram／YouTube podcast）截圖推薦得知；截圖列出 mattpocock/skills、addyosmani/agent-skills、kepano/obsidian-skills、cloudflare/security-audit-skill、google/elephant-goldfish-model。依各倉庫 README（main）與 2026-11-13 PT 的 GitHub API 整理。",
+        "url": "https://github.com/mattpocock/skills"
+      },
+      "facts": {
+        "what": "可組合的編碼代理人 Skills 套件，用來對齊需求、建立共用詞彙、做測試驅動開發與除錯，定位為給實作工程使用，而非大型流程框架",
+        "repo": "https://github.com/mattpocock/skills",
+        "site": "https://aihero.dev/skills",
+        "catalog": "https://skills.sh/mattpocock/skills",
+        "author": "mattpocock（Matt Pocock）",
+        "install": "Claude Code：claude plugin install mattpocock-skills@claude-plugins-official。Codex：codex plugin marketplace add mattpocock/skills，再 codex plugin add mattpocock-skills@mattpocock。GitHub Copilot CLI：copilot plugin marketplace add mattpocock/skills，再 copilot plugin install mattpocock-skills@mattpocock。Gemini CLI：分別安裝 skills/engineering 與 skills/productivity 路徑。其他代理人：npx skills@latest add mattpocock/skills -a <agent>。官方提醒外掛會自行更新，skills.sh 則是把可編輯檔案複製進專案，兩者不要同時安裝以免技能重複",
+        "setup": "在代理人裡對每個倉庫跑一次 /setup-matt-pocock-skills，選擇議題追蹤（GitHub、GitLab、本地檔或其他）、分票標籤與文件存放位置",
+        "skills": "工程類包含 grill-with-docs、tdd、diagnosing-bugs、code-review、implement、to-spec、triage 等；生產力類包含 grill-me、handoff、writing-for-agents 等。README 特別推薦先用 grilling 對齊需求",
+        "license": "MIT",
+        "statsNote": "2026-11-13 PT 以 GitHub API 查得 323,824 stars、27,176 forks；倉庫建立於 2026-02-03 UTC，語言標示為 Shell，預設分支 main"
+      },
+      "refs": [
+        {
+          "title": "mattpocock/skills（GitHub）",
+          "url": "https://github.com/mattpocock/skills"
+        },
+        {
+          "title": "AI Hero Skills",
+          "url": "https://aihero.dev/skills"
+        },
+        {
+          "title": "skills.sh：mattpocock/skills",
+          "url": "https://skills.sh/mattpocock/skills"
+        }
+      ],
+      "tags": [
+        "工具",
+        "AI",
+        "Agent Skills",
+        "Claude Code",
+        "mattpocock",
+        "Codex",
+        "開源",
+        "MIT"
+      ]
+    },
+    {
+      "id": "20261113-addyosmani-agent-skills",
+      "createdAt": "2026-11-13T17:40:03-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "11月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "Addy Osmani Agent Skills - 給 AI 編碼代理人的正式工程技能包",
+      "summary": "addyosmani/agent-skills 是 Addy Osmani 整理的正式工程向 Agent Skills，把「先寫規格、再計畫、實作、測試、審查到上線」編成 25 項技能與 9 個斜線指令：/spec、/plan、/build、/test、/constraints、/review、/webperf、/code-simplify、/ship。技能也會依當下工作自動啟用，例如設計 API 會觸發 api-and-interface-design。最快可用 npx skills add addyosmani/agent-skills 一次安裝全部技能；Claude Code 則用 /plugin marketplace add addyosmani/agent-skills，再 /plugin install agent-skills@addy-agent-skills。亦支援 Cursor、Codex、Gemini CLI、Antigravity、Copilot 等。授權為 MIT。站點為 skills.addy.ie。2026-11-13 PT 以 GitHub API 查得 117,144 stars、12,250 forks。",
+      "source": {
+        "type": "screenshot_note",
+        "title": "AI 懶人報推薦的 Agent Skills 倉庫清單",
+        "note": "由 AI 懶人報（Instagram／YouTube podcast）截圖推薦得知；截圖列出 mattpocock/skills、addyosmani/agent-skills、kepano/obsidian-skills、cloudflare/security-audit-skill、google/elephant-goldfish-model。依各倉庫 README（main）與 2026-11-13 PT 的 GitHub API 整理。",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "facts": {
+        "what": "把軟體開發生命週期編成 25 項生產級 Agent Skills 與 9 個斜線指令，讓編碼代理人在規格、實作、測試、審查與上線階段遵循同一套品質門檻",
+        "repo": "https://github.com/addyosmani/agent-skills",
+        "site": "https://skills.addy.ie",
+        "author": "addyosmani（Addy Osmani）",
+        "commands": "/spec、/plan、/build、/test、/constraints、/review、/webperf、/code-simplify、/ship。在 Claude Code 若與內建指令撞名（例如 /review），改用命名空間形式 /agent-skills:review。/build auto 可在核准計畫後連續實作各任務，失敗或高風險步驟仍會暫停",
+        "skillCount": "README 與倉庫 skills/ 目錄於查證時均為 25 項，例如 spec-driven-development、test-driven-development、code-review-and-quality、interview-me、frontend-ui-engineering、security-and-hardening",
+        "install": "最快：npx skills add addyosmani/agent-skills（可加 --list 先瀏覽，或 --skill <name> 只裝單項）。Claude Code：/plugin marketplace add addyosmani/agent-skills，再 /plugin install agent-skills@addy-agent-skills。另有 Cursor、Antigravity（agy plugin install）、Gemini CLI、Codex、Copilot、OpenCode、Windsurf、Kiro、Command Code 的說明",
+        "portabilityNote": "官方提醒只裝單一技能時，npx 只會複製該技能目錄，不會帶上倉庫層級的 references/ 共用清單；完整整合、自行 clone，或把需要的清單放進該技能的 references/ 即可",
+        "license": "MIT",
+        "statsNote": "2026-11-13 PT 以 GitHub API 查得 117,144 stars、12,250 forks；倉庫建立於 2026-02-15 UTC，語言標示為 JavaScript，預設分支 main"
+      },
+      "refs": [
+        {
+          "title": "addyosmani/agent-skills（GitHub）",
+          "url": "https://github.com/addyosmani/agent-skills"
+        },
+        {
+          "title": "Addy Osmani Agent Skills 站點",
+          "url": "https://skills.addy.ie"
+        }
+      ],
+      "tags": [
+        "工具",
+        "AI",
+        "Agent Skills",
+        "Claude Code",
+        "Addy Osmani",
+        "Cursor",
+        "開源",
+        "MIT"
+      ]
+    },
+    {
+      "id": "20261113-obsidian-skills",
+      "createdAt": "2026-11-13T17:40:02-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "11月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "Obsidian Skills - 教代理人使用 Obsidian CLI 與開放格式",
+      "summary": "截圖寫的是 kepano/obsidian-skills；2026-11-13 以 GitHub 查證時，該網址已 301 轉到官方組織倉庫 obsidianmd/obsidian-skills（原作者 kepano 為 Steph Ango）。這組 Agent Skills 依 agentskills.io 規格撰寫，教代理人撰寫與編輯 Obsidian Flavored Markdown、Bases 與 JSON Canvas，並使用 Obsidian CLI、Headless、Defuddle（網頁轉乾淨 Markdown）與 Knap（依 JSON／CSV 產生檔案）。Claude Code：claude plugin marketplace add obsidianmd/obsidian-skills，再 claude plugin install obsidian@obsidian-skills。亦支援 Codex marketplace、Cursor Marketplace，以及 npx skills add https://github.com/obsidianmd/obsidian-skills。授權為 MIT。2026-11-13 PT 以 GitHub API 查得 52,301 stars、3,718 forks。",
+      "source": {
+        "type": "screenshot_note",
+        "title": "AI 懶人報推薦的 Agent Skills 倉庫清單",
+        "note": "由 AI 懶人報（Instagram／YouTube podcast）截圖推薦得知；截圖列出 mattpocock/skills、addyosmani/agent-skills、kepano/obsidian-skills、cloudflare/security-audit-skill、google/elephant-goldfish-model。依各倉庫 README（main）與 2026-11-13 PT 的 GitHub API 整理。",
+        "url": "https://github.com/obsidianmd/obsidian-skills"
+      },
+      "facts": {
+        "what": "給 Obsidian 用的 Agent Skills：教代理人使用 CLI，以及 Markdown、Bases、JSON Canvas 等開放格式",
+        "repo": "https://github.com/obsidianmd/obsidian-skills",
+        "redirectNote": "截圖名稱 kepano/obsidian-skills 仍可開啟，但 GitHub 回 301 並轉到 obsidianmd/obsidian-skills；目前官方倉庫屬於 Obsidian 組織",
+        "author": "目前由 obsidianmd 維護；截圖寫的 kepano 為 Steph Ango",
+        "skills": "obsidian-markdown、obsidian-bases、json-canvas、obsidian-cli、obsidian-headless、defuddle、knap",
+        "install": "Claude Code：claude plugin marketplace add obsidianmd/obsidian-skills，再 claude plugin install obsidian@obsidian-skills（之後可用 claude plugin update obsidian@obsidian-skills）。Codex：codex plugin marketplace add obsidianmd/obsidian-skills。Cursor 可在 Cursor Marketplace 安裝。通用：npx skills add https://github.com/obsidianmd/obsidian-skills。也可手動把 plugins/obsidian/skills/ 複製到 .claude/skills/ 或對應的 skills 目錄",
+        "spec": "遵循 Agent Skills 規格（https://agentskills.io/specification），可用於 Claude Code、Codex、OpenCode 等相容代理人",
+        "license": "MIT",
+        "statsNote": "2026-11-13 PT 以 GitHub API 查得 52,301 stars、3,718 forks；倉庫建立於 2026-01-02 UTC，語言標示為 Shell，預設分支 main"
+      },
+      "refs": [
+        {
+          "title": "obsidianmd/obsidian-skills（GitHub，目前官方倉庫）",
+          "url": "https://github.com/obsidianmd/obsidian-skills"
+        },
+        {
+          "title": "kepano/obsidian-skills（舊網址，會轉到上方倉庫）",
+          "url": "https://github.com/kepano/obsidian-skills"
+        },
+        {
+          "title": "Agent Skills 規格",
+          "url": "https://agentskills.io/specification"
+        }
+      ],
+      "tags": [
+        "工具",
+        "AI",
+        "Agent Skills",
+        "Claude Code",
+        "Obsidian",
+        "Markdown",
+        "開源",
+        "MIT"
+      ]
+    },
+    {
+      "id": "20261113-cloudflare-security-audit-skill",
+      "createdAt": "2026-11-13T17:40:01-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "11月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "Cloudflare security-audit-skill - 多階段、可獨立驗證的資安稽核 Skill",
+      "summary": "cloudflare/security-audit-skill 是 Cloudflare 公開的編碼代理人 Skill，把代理人編成多階段資安稽核流程，產出可獨立驗證、機器可讀的發現紀錄。README 寫這是後來內部漏洞發掘機制的單倉起點，並指向官方部落格〈Build your own vulnerability harness〉。流程分六段：偵察、以覆蓋率為導向的查找、候選驗證、結構化輸出、獨立紀錄核對，以及中性報告；判決分為 confirmed、needs_validation、rejected。安裝：npx skills add https://github.com/cloudflare/security-audit-skill --skill security-audit（可加 --global）。使用時在目標程式庫請代理人做 security audit；未指定輸出目錄時，完整稽核模式預設寫到 ~/security-audit-skill/<repo-name>/run-<N>。授權為 MIT。需要支援工具與平行子代理人的編碼代理人，以及 Node.js 以跑驗證腳本。2026-11-13 PT 以 GitHub API 查得 71,924 stars、4,791 forks。",
+      "source": {
+        "type": "screenshot_note",
+        "title": "AI 懶人報推薦的 Agent Skills 倉庫清單",
+        "note": "由 AI 懶人報（Instagram／YouTube podcast）截圖推薦得知；截圖列出 mattpocock/skills、addyosmani/agent-skills、kepano/obsidian-skills、cloudflare/security-audit-skill、google/elephant-goldfish-model。依各倉庫 README（main）與 2026-11-13 PT 的 GitHub API 整理。",
+        "url": "https://github.com/cloudflare/security-audit-skill"
+      },
+      "facts": {
+        "what": "給編碼代理人用的多階段資安稽核 Skill：以隔離的子代理人做偵察、查找與交叉驗證，並輸出機器可讀、可獨立核對的發現",
+        "repo": "https://github.com/cloudflare/security-audit-skill",
+        "blog": "https://blog.cloudflare.com/build-your-own-vulnerability-harness",
+        "author": "cloudflare",
+        "phases": "1. 偵察並寫下 architecture.md 與 coverage-ledger.json；2. 依覆蓋率分派查找並找缺口；3. 由未參與發現的驗證者嘗試否定候選；4. 把 confirmed／needs_validation／rejected 寫入 findings.json 並依 schema 驗證；5. 另啟代理人核對最終出處；6. 由已核對紀錄產生 REPORT.md 等中性報告。對同一倉庫多次執行會累加覆蓋，不把過期或未決議項目當成已覆蓋",
+        "install": "npx skills add https://github.com/cloudflare/security-audit-skill --skill security-audit；使用者層級安裝再加 --global",
+        "usage": "在要稽核的程式庫啟動編碼代理人，以自然語言請求 security audit 或找出漏洞即可觸發。完整稽核模式若未指定輸出目錄，預設為 ~/security-audit-skill/<repo-name>/run-<N>；只有在明確選用版控會忽略的目錄時，才會寫進目標倉庫內",
+        "requirements": "編碼代理人需支援工具使用與平行子代理人；驗證腳本需要 Node.js。對受稽核程式啟動建置、測試或外部程序時，官方要求有作業系統層級的沙盒（禁用外部網路、限制寫入路徑與資源）。沒有這些控管時，流程會把相關線索維持在 needs_validation，而不去執行目標程式",
+        "license": "MIT",
+        "statsNote": "2026-11-13 PT 以 GitHub API 查得 71,924 stars、4,791 forks；倉庫建立於 2026-06-18 UTC，語言標示為 JavaScript，預設分支 main。最近一次 push 為 2026-09-14 UTC"
+      },
+      "refs": [
+        {
+          "title": "cloudflare/security-audit-skill（GitHub）",
+          "url": "https://github.com/cloudflare/security-audit-skill"
+        },
+        {
+          "title": "Cloudflare Blog：Build your own vulnerability harness",
+          "url": "https://blog.cloudflare.com/build-your-own-vulnerability-harness"
+        }
+      ],
+      "tags": [
+        "工具",
+        "AI",
+        "Agent Skills",
+        "Claude Code",
+        "Cloudflare",
+        "資安",
+        "開源",
+        "MIT"
+      ]
+    },
+    {
+      "id": "20261113-elephant-goldfish-model",
+      "createdAt": "2026-11-13T17:40:00-07:00",
+      "category": "工具",
+      "year": "2026",
+      "month": "11月",
+      "classification": {
+        "category": "工具"
+      },
+      "title": "Elephant-Goldfish Model（EGM）- 用大象起草、用金魚複審的開源設計外掛",
+      "summary": "google/elephant-goldfish-model（EGM，官網 egm.dev）是開源外掛，用來和 AI 助手一起設計並複審軟體規格，不是論文倉庫。Elephant 保有專案脈絡並起草規格；Goldfish 審查員只看草稿與它所引用的原始資料、不帶先前對話，用來找出未言明的假設與盲點。人仍要做架構取捨，並在實作前核准規格。技能包括 brainstorm、draft、review、resolve、bootstrap、review-loop 與 drift-report。Claude Code：claude plugin marketplace add google/elephant-goldfish-model，再 claude plugin install egm@egm；亦支援 Codex、Antigravity，以及 ChatGPT／Codex 桌面版外掛。授權為 Apache-2.0。README 註明這不是 Google 正式支援的產品；構想來自 Dave Rensin 的文章。2026-11-13 PT 以 GitHub API 查得 18,622 stars、1,388 forks。",
+      "source": {
+        "type": "screenshot_note",
+        "title": "AI 懶人報推薦的 Agent Skills 倉庫清單",
+        "note": "由 AI 懶人報（Instagram／YouTube podcast）截圖推薦得知；截圖列出 mattpocock/skills、addyosmani/agent-skills、kepano/obsidian-skills、cloudflare/security-audit-skill、google/elephant-goldfish-model。依各倉庫 README（main）與 2026-11-13 PT 的 GitHub API 整理。",
+        "url": "https://github.com/google/elephant-goldfish-model"
+      },
+      "facts": {
+        "what": "開源 AI 助手外掛：用保有脈絡的 Elephant 起草規格，再用沒有先前對話的 Goldfish 審查員複審，最後由人核准設計再實作",
+        "repo": "https://github.com/google/elephant-goldfish-model",
+        "site": "https://egm.dev",
+        "author": "google 公開倉庫；README 註明「This is not an officially supported Google product.」",
+        "essay": "構想來自 Dave Rensin〈Elephants, Goldfish, and the New Golden Age of Software Engineering〉：https://medium.com/@drensin/elephants-goldfish-and-the-new-golden-age-of-software-engineering-c33641a48874",
+        "skills": "egm-brainstorm（寫概念簡報）、egm-draft（寫成設計文件）、egm-review（五階段複審）、egm-resolve（處理審查意見）、egm-bootstrap（為既有程式庫補文件）、egm-review-loop（自訂審查組合）、egm-drift-report（比對已入庫文件與現況程式）。在 Antigravity 與 Claude Code 指令多加 /egm: 前綴，例如 /egm:egm-review",
+        "install": "需安裝完整外掛，技能才能讀到審查提示與文件標準。Claude Code：claude plugin marketplace add google/elephant-goldfish-model，再 claude plugin install egm@egm。Codex CLI：codex plugin marketplace add google/elephant-goldfish-model，再 codex plugin add egm@egm。Antigravity CLI：agy plugin install https://github.com/google/elephant-goldfish-model。ChatGPT 與 Codex 桌面版可從已發布的 EGM 外掛安裝。金魚複審需要能建立新子代理人的工作階段",
+        "license": "Apache-2.0",
+        "statsNote": "2026-11-13 PT 以 GitHub API 查得 18,622 stars、1,388 forks；倉庫建立於 2026-09-13 UTC，語言標示為 Python，預設分支 main"
+      },
+      "refs": [
+        {
+          "title": "google/elephant-goldfish-model（GitHub）",
+          "url": "https://github.com/google/elephant-goldfish-model"
+        },
+        {
+          "title": "EGM 官方網站",
+          "url": "https://egm.dev"
+        },
+        {
+          "title": "Dave Rensin：Elephants, Goldfish, and the New Golden Age of Software Engineering",
+          "url": "https://medium.com/@drensin/elephants-goldfish-and-the-new-golden-age-of-software-engineering-c33641a48874"
+        }
+      ],
+      "tags": [
+        "工具",
+        "AI",
+        "Agent Skills",
+        "Claude Code",
+        "Google",
+        "EGM",
+        "開源",
+        "Apache"
+      ]
+    },
     {
       "id": "20261110-mole-mac",
       "createdAt": "2026-11-10T15:53:00-07:00",
